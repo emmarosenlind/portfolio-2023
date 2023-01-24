@@ -1,0 +1,29 @@
+.portfolio__menu-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    cursor: pointer;
+    
+}
+
+.portfolio__MenuItem p{
+    transition: 0.5s;
+    
+}
+
+
+.portfolio__menu{
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+}
+
+.portfolio__menu h1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
