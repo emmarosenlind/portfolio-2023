@@ -27,3 +27,8 @@
     font-size: 30px;
     padding-bottom: 2rem;
 }
+
+.portfolio__menu p:hover{
+ 
+    /*lägg till en hover*/
+}

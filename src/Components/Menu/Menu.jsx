@@ -66,8 +66,8 @@ const Menu = () => {
                 </div>
             </div>
 
-            {uxui ? <Uxdesign /> : ''}
-           {/*
+            {/*{uxui ? <Uxdesign /> : ''}
+           
             {dev ? <Code /> : ''}
             {fun ? <FunStuff /> : ''}
       */}
