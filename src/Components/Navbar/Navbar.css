@@ -2,6 +2,8 @@
 
 :root {
   --font-family: 'Poppins';
+  transition: 0.5s;
+
 }
 
 .portfolio__navbar {
@@ -10,6 +12,7 @@
     align-items: center;
     padding: 2rem 6rem;
     background: #F9F6ED;
+    
 }
 
 .portfolio__navbar-links{
@@ -102,6 +105,7 @@
 .portfolio__navbar-menu_container p {
     margin: 1rem 0;
 }
+
 .portfolio__navbar-menu_container-links-sign{
     display: none;
 }

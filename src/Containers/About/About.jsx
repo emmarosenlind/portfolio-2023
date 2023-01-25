@@ -17,9 +17,9 @@ function About(){
           <div className ="portfolio__about-content">
               <h1>It's all about <br/> the experience</h1>
               <p> We’re not selling “big agency services at small agency prices”. We deliver exceptional design solutions to complex business problems – extremely efficiently and delivered at lightning-fast pace. <br/> <br/>Our experience has built us an enviable reputation for consistently delivering the wow factor, underpinned with intelligent and thoughtful design that is focused on delivering a clear return on your investment. Whether you’re looking for a full project solution or require specific design skills to complement your in-house team, we deliver solutions that pack a real punch.</p>
-              <h2><a></a>Let's talk</h2>
+              <h2><a href="https://www.w3schools.com" >Let's talk</a></h2>
           </div>
-          <img src={pic} />
+          <img src={pic} alt ="Me"/>
        </div>
       
     </div>

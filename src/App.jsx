@@ -1,26 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Home from './Pages/Home/Home';
-import {Article, Navbar, Menu} from './Components';
-import {Header, Projects, About, Footer, Left, Right} from './Containers';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {Navbar, Menu} from './Components';
+import {Header} from './Containers';
+//import {Header, Projects, About, Footer, Left, Right, Schysst, Solwe} from './Containers';
+//import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
+  
   return (
-    <BrowserRouter>
-    <Navbar/>
-    <Header/>
-    <Menu/>
-    <Footer/>
-    <Projects/>
-    <Right/>
-    <Left/>
-    <Routes>
-        <Route path="/" component={Home}/>
-
-    </Routes>
-    
-    </BrowserRouter>
+    <div className ="App">
+      <Navbar/>
+      <Header/>
+      <div className ="project-items">
+        <Menu/>
+      </div>
+    </div>
+  
   );
 }
 

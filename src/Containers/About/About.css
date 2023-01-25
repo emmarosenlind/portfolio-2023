@@ -1,13 +1,21 @@
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
 
 #video{
+    position: absolute;
     object-fit: cover;
     width:  100%;
     height: 100vh;
-    z-index: -1;
+    z-index: -2;
 }
 
 .overlay{
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%; 
@@ -16,18 +24,12 @@
     mix-blend-mode: luminosity;
 }
 
-.portfolio{
-    width: 100%;
-    height: 100vh;
-    
-}
 
 .portfolio__about{
     position: absolute;
+    z-index: 2;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    top:0;
     font-family: var(--font-family);
     color: white;
     display: flex;
@@ -61,6 +63,11 @@
     cursor: pointer;
 }
 
+
+
+
+
+
 @media  screen and (max-width: 1200px) {
     .portfolio__about{
         flex-direction: column;
@@ -68,10 +75,6 @@
     }
     
 }
-
-
-
-
 
 @media  screen and (max-width: 950px) {
     .portfolio__about-content{

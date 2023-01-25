@@ -7,7 +7,7 @@ const Right = () => {
         <div className = "portfolio__projects">
 
             <div className = "portfolio__projects-right">
-                 <img></img>
+                 <img alt ="text"></img>
             </div>
 
 

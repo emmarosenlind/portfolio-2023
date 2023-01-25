@@ -1,3 +1,12 @@
+
+
+.portfolio__projects h3{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+
 .portfolio__projects {
     font-family: var(--font-family);
     display: flex;
@@ -10,14 +19,28 @@
 }
 
 .portfolio__projects-right{
-    background: linear-gradient(203.88deg, #373737 1.87%, #000000 126.04%);
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+
+    
     width: 50vw;
 }
 
 
+
+
+
+.portfolio__projects-right #schysst_nr1{
+    background: linear-gradient(203.88deg, #373737 1.87%, #000000 126.04%);
+}
+
 .portfolio__projects-left_content{
     margin-left: 5rem;
-    margin-top: 10rem;
+
+    /*här skulle man behöva en vertical align ist*/
+    margin-top: 8rem;
     padding-right: 5rem;
     
 }
@@ -40,6 +63,46 @@
     margin-bottom: 3rem;
 }
 
+
+
+/**-------schysst käk-----------*/
+#schysst1{
+    background-color: #FCEF4F;
+}
+
+#schysst1_img{
+    height: 233px;
+}
+
+#schysst2{
+    background-color: #F9F1E7;
+}
+
+#schysst3{
+    background-color: #F9F1E7;
+}
+
+#schysst4{
+    background-color: #F9F1E7;
+}
+
+#schysst5{
+    background-color: #F9F1E7;
+}
+
+#schysst6{
+    background-color: #F9F1E7;
+}
+
+/**-------schysst käk-----------*/
+
+#solwe1{
+    background-color: #CFECF6;
+}
+
+#solwe2 img{
+    object-fit: cover;
+}
 
 
 

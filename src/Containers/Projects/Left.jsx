@@ -12,7 +12,7 @@ const Left = () => {
                 </div>
              </div>
              <div className = "portfolio__projects-right">
-                 <img></img>
+                 <img alt ="text"></img>
              </div>
         </div>
   )

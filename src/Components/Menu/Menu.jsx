@@ -1,6 +1,5 @@
-import { render } from '@testing-library/react'
-import React, {useState, useEffect} from 'react'
-import { Uxdesign } from '../../Components'
+import React, {useState} from 'react'
+import { Designs } from '../../Containers'
 import './Menu.css'
 
 var styling = {
@@ -20,20 +19,20 @@ var styling = {
     }
   }
 
-const Menu = () => {
+function Menu(){
     
-    const [uxui, setUx] = useState(true)
+    const [design, setDesign] = useState(true)
     const [dev, setDev] = useState(false)
     const [fun, setFun] = useState(false)
 
 
     const selectItem = (s) => {
-        setUx(false);
+        setDesign(false);
         setDev(false);
         setFun(false);
     
         if (s === 'a') {
-          setUx(true)
+          setDesign(true)
         }
         if (s === 'u') {
           setDev(true)
@@ -48,7 +47,7 @@ const Menu = () => {
         <h1> My work</h1>
             <div className ="portfolio__menu-container"> 
                 <div className='portfolio__MenuItem' 
-                    style={uxui ? styling.selected : styling.button} 
+                    style={design ? styling.selected : styling.button} 
                     onClick={() => selectItem('a')}>
                         <p>#uxdesign</p>
                 </div>
@@ -66,11 +65,12 @@ const Menu = () => {
                 </div>
             </div>
 
-            {/*{uxui ? <Uxdesign /> : ''}
-           
+            {design ? <Designs /> : ''}
+            
+            {/*
             {dev ? <Code /> : ''}
             {fun ? <FunStuff /> : ''}
-      */}
+            */}
         </div>
       )
 }

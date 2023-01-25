@@ -4,3 +4,8 @@ export { default as About } from './About/About';
 export { default as Footer } from './Footer/Footer';
 export { default as Left } from './Projects/Left';
 export { default as Right } from './Projects/Right';
+export { default as Object } from './Projects/Object';
+export { default as Design } from './Projects/Design';
+export { default as Schysst } from './Projects/Designs/Schysst';
+export { default as Solwe } from './Projects/Designs/Solwe';
+export { default as Designs } from './Projects/Design';
