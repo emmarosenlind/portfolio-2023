@@ -1,5 +1,12 @@
 import React, {useState} from 'react'
 import { Designs } from '../../Containers'
+import {Code, Uxui, Fun} from '../../Components'
+import { CSSTransition } from 'react-transition-group';
+
+
+
+
+
 import './Menu.css'
 
 var styling = {
@@ -14,35 +21,42 @@ var styling = {
     button: { 
         fontFamily: "var(--font-family)",
         fontWeight: 500,
-        fontSize: "16px",
-        
+        fontSize: "16px", 
     }
   }
 
-function Menu(){
-    
+  function Menu(){
     const [design, setDesign] = useState(true)
     const [dev, setDev] = useState(false)
     const [fun, setFun] = useState(false)
-
+    const [transition, setTransition] = useState(false)
 
     const selectItem = (s) => {
-        setDesign(false);
-        setDev(false);
-        setFun(false);
-    
-        if (s === 'a') {
-          setDesign(true)
-        }
-        if (s === 'u') {
-          setDev(true)
-        }
-        if (s === 'd') {
-          setFun(true)
-        }
-      }
 
-      return(
+
+        setTransition(true);
+        setTimeout(() => {
+
+
+            setDesign(false);
+            setDev(false);
+            setFun(false);
+
+
+            if (s === 'a') {
+                setDesign(true);
+            }
+            if (s === 'u') {
+                setDev(true);
+            }
+            if (s === 'd') {
+                setFun(true);
+            }
+            setTransition(false);
+        }, 300);
+    }
+
+    return(
         <div className = "portfolio__menu" id = "menu"> 
         <h1> My work</h1>
             <div className ="portfolio__menu-container"> 
@@ -65,15 +79,16 @@ function Menu(){
                 </div>
             </div>
 
-            {design ? <Designs /> : ''}
-            
-            {/*
-            {dev ? <Code /> : ''}
-            {fun ? <FunStuff /> : ''}
-            */}
-        </div>
-      )
+     
+
+
+              
+                {design ? <Uxui /> : ''}
+                {dev ? <Code transition={transition} /> : ''}
+                {fun ? <Fun /> : ''}
+            </div>
+    
+    )
 }
 
-
-export default Menu
+export default Menu;

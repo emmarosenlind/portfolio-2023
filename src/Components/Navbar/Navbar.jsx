@@ -5,9 +5,9 @@ import './Navbar.css';
 
 const Menu = () => (
     <>
-    <p><a href="Home">Home</a></p>
-    <p><a href="Education">Education</a></p>
-    <p><a href="About">About</a></p>
+    <p><a href="#menu">Projects</a></p>
+   {/*  <p><a href="Education">Education</a></p>*/}
+    <p><a href="#about">About</a></p>
     </>
 )
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
             <div className ="portfolio__navbar-sign">
                 
-                <button type="button">Contact</button>
+                <button href="https://www.linkedin.com/in/emmarosenlind/" type="button">Contact</button>
             </div>
 
             <div className="portfolio__navbar-menu">

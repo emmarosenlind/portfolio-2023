@@ -1,0 +1,40 @@
+import React from 'react'
+import { CSSTransition } from 'react-transition-group';
+import './Preview.css'
+
+import cover from '../../Assets/code-cover.png';
+import gt from '../../Assets/gt-preview.png';
+
+const Code = ({transition}) => {
+  
+  return (
+    <div className={`portfolio__preview ${transition ? 'transition' : ''}`}>
+        <div className='portfolio__preview-card' >
+            <a href="portfolio/ove">
+              <div className='portfolio__preview-card_image' >
+                <img src ={cover}></img>
+            </div>
+            <div className='portfolio__preview-card_text'>
+                <p>#code</p>
+                <h1>Comming soon</h1>
+            </div>
+            </a>
+        </div>
+
+        <div className='portfolio__preview-card'>
+            <a href="portfolio/Schysst">
+                <div className='portfolio__preview-card_image'>
+                  <img src ={cover}></img>
+              </div>
+              <div className='portfolio__preview-card_text'>
+                  <p>#code</p>
+                  <h1>Comming soon</h1>
+              </div>
+            </a>
+        </div>
+    </div>
+  )
+}
+
+
+export default Code

@@ -72,6 +72,13 @@
     cursor: pointer;
 } 
 
+button:hover{
+    background: pink;
+    transition: 0.4s;
+    color:black;
+   
+}
+
 .portfolio__navbar-menu{
     margin-left: 1rem;
     display: none;

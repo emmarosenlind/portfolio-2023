@@ -1,3 +1,13 @@
+#go_back{
+    top:0;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.portfolio__projects-left_back{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
 
 
 .portfolio__projects h3{
@@ -11,11 +21,29 @@
     font-family: var(--font-family);
     display: flex;
     flex-direction: row;
+
+    
+    vertical-align: middle;
+
 }
 
 .portfolio__projects-left{
-    height: 100vh;
+    min-height: 100vh;
     width: 50vw;
+   
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    vertical-align: middle;
+   
+}
+
+.portfolio__projects-left_content{
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+    vertical-align: middle;
+    
 }
 
 .portfolio__projects-right{
@@ -23,8 +51,6 @@
     align-items: center;
     vertical-align: middle;
     justify-content: center;
-
-    
     width: 50vw;
 }
 
@@ -36,14 +62,6 @@
     background: linear-gradient(203.88deg, #373737 1.87%, #000000 126.04%);
 }
 
-.portfolio__projects-left_content{
-    margin-left: 5rem;
-
-    /*här skulle man behöva en vertical align ist*/
-    margin-top: 8rem;
-    padding-right: 5rem;
-    
-}
 
 
 .portfolio__projects-left_content h1{
@@ -59,7 +77,8 @@
 
 .portfolio__projects-left_content p {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 160%;
     margin-bottom: 3rem;
 }
 
@@ -71,36 +90,168 @@
 }
 
 #schysst1_img{
-    height: 233px;
+   width: 20rem;
 }
 
 #schysst2{
     background-color: #F9F1E7;
+}
+#schysst2 img{
+    width: 80%;
 }
 
 #schysst3{
     background-color: #F9F1E7;
 }
 
+#schysst3 img{
+   width: 80%;
+   filter: drop-shadow(0 0 0.45rem rgba(0, 0, 0, 0.10));
+}
+
 #schysst4{
-    background-color: #F9F1E7;
+    background-color: #FCEF4F;
+}
+
+#schysst4 img{
+    width: 40%;
 }
 
 #schysst5{
     background-color: #F9F1E7;
 }
 
+#schysst5 img{
+    width: 15rem;
+}
 #schysst6{
     background-color: #F9F1E7;
 }
 
-/**-------schysst käk-----------*/
+#schysst6 img{
+    width: 70%;
+}
+
+/**-------solwe-----------*/
 
 #solwe1{
     background-color: #CFECF6;
 }
 
+#solwe1_img{
+    width: 15rem;
+}
+
 #solwe2 img{
+    object-fit: cover;
+}
+
+
+/**-----------Gymtrack----------*/
+#gymtrack1 img{
+    width: 20rem;
+   
+
+}
+
+
+
+#gymtrack1 {
+    background-color: #E7EBED;
+}
+
+#gymtrack2{
+    background-size: cover;
+}
+
+#gymtrack3 img{
+    width: 40rem;
+
+}
+
+#gymtrack3 {
+    background-color: #E7EBED;
+}
+
+#gymtrack4 {
+    background-color: #E7EBED;
+}
+
+#gymtrack4 img{
+    width: 40rem;
+}
+
+#gymtrack5 {
+    background-color: #E7EBED;
+}
+
+#gymtrack5 img{
+    width: 25rem;
+}
+
+#gymtrack6 {
+    background-color: #E7EBED;
+}
+
+#gymtrack6 img{
+    width: 35rem;
+}
+
+
+/*--------------Naturglass-------------*/
+
+#naturglass{
+    background: linear-gradient(204.89deg, rgba(255, 240, 200, 0.63) 2.03%, #FFFADF 2.04%, #FEF5C4 101.31%);
+}
+
+.naturglass_image{
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.naturglass_image img{
+
+    width: 80vw;
+
+}
+
+#naturglass img{
+    width: 25rem;
+}
+
+
+
+
+
+
+/*--------------Ove-------------*/
+#ove{
+    background: linear-gradient(203.88deg, #373737 1.87%, #000000 126.04%);
+}
+
+#ove img{
+    width: 20rem;
+    filter: drop-shadow(0 0 0.45rem rgba(0, 0, 0, 0.10));
+    
+}
+
+
+
+/*-----------------Coetus----------*/
+#coetus{
+    background: linear-gradient(203.88deg, #8FE0E7 1.87%, #52B4BC 126.04%);
+
+}
+
+#coetus img{
+    width: 20rem;
+}
+
+#coetus2{
     object-fit: cover;
 }
 
@@ -109,21 +260,19 @@
 
 
 
+
 @media  screen and (max-width: 1200px) {
     .portfolio__projects{
-        flex-direction: column;
-        
-       
+        flex-direction: column;       
     }
 
     .portfolio__projects-left{
         flex-direction: column;
         width: 100vw;
-       
     }
+
     .portfolio__projects-left_content{
         flex-direction: column;
-      
         margin-left: 5rem;
         margin-right: 10rem;
         vertical-align: middle;
@@ -132,6 +281,7 @@
 
     .portfolio__projects-right{
         width: 100vw;
+        height: 100vh;
     }
     
 }
@@ -192,6 +342,12 @@
     .portfolio__projects-left_content h2{
         font-weight: 500;
         font-size: 14px;
+       
+    }
+
+    .portfolio__projects-left_content h1{
+        font-weight: 500;
+        font-size: 24px;
        
     }
     

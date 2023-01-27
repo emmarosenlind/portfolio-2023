@@ -1,15 +1,24 @@
 import React from 'react'
 import background from '../../../Assets/Solwe/solwe.jpeg';
+import spaceapps from '../../../Assets/spaceapps.png';
 import { Navbar } from '../../../Components';
 
 
+
+
+
 function Solwe(){
+    
+    
   return (
     <div className='portfolio__solwe'>
-        <Navbar/>
+        
         <div className = "portfolio__projects">
+
             <div className ="portfolio__projects-left">
+
                 <div className ="portfolio__projects-left_content">
+               
                     <h1>Nasa Space Apps Challenge</h1>
                     <p>Space Apps Challenge is a world wide competition arranged by NASA. The assignment was to choose one of 28 challenges and solve it in the best way over a weekend. We participated through Stockholm and won the regional competition.</p>
                 
@@ -28,19 +37,21 @@ function Solwe(){
             </div>
 
             <div className = "portfolio__projects-right" id = "solwe1">
-                <div className = "portfolio__projects-right_img" ><img id="solwe1_img" alt = "solwe"/></div>
+                <div className = "portfolio__projects-right_img" ><img src ={spaceapps} id="solwe1_img" alt = "solwe"/></div>
             </div>
         </div>
 
+
+
+
+
+
         <div className = "portfolio__projects">
-            <div className = "portfolio__projects-right" id ="solwe2" style={{ backgroundImage: `url(${background})` }}>
-                <img alt = "solwe"></img>
+            <div className = "portfolio__projects-right" id ="solwe2" style={{ backgroundImage: `url(${background})`, 
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'  }}>
             </div>
-
-
-
-
-
             <div className = "portfolio__projects-left">
                 <div className = "portfolio__projects-left_content">
                     <h1>The challenge</h1>
@@ -50,7 +61,6 @@ function Solwe(){
                     <br/> <br/>Are you interested in our research, flowcharts and requierment specification? Read more about the process <a href="https://www.w3schools.com" >here</a></p>
                 </div>
             </div>
-            
         </div>
     </div>
   )

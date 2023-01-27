@@ -1,5 +1,17 @@
 import React from 'react'
+import './Schysst.css'
 import logo from '../../../Assets/Schysst/schysstkak-logo.png';
+import products from '../../../Assets/Schysst/products.png';
+import man from '../../../Assets/Schysst/man.png';
+import thing from '../../../Assets/Schysst/doyourthing.png';
+import poster from '../../../Assets/Schysst/poster.png';
+import poster2 from '../../../Assets/Schysst/poster2.png';
+import persona from '../../../Assets/Schysst/persona.png';
+import barnkul from '../../../Assets/Schysst/barnkul.png';
+import quiz from '../../../Assets/Schysst/vilken-kebab-ar-du.png';
+import tillsammans from '../../../Assets/Schysst/laga-tillsammans.png';
+
+
 
 function Schysst() {
   return (
@@ -8,7 +20,7 @@ function Schysst() {
       <div className = "portfolio__projects">
         <div className ="portfolio__projects-left">
           <div className ="portfolio__projects-left_content">
-            <h1>Laga tillsammans</h1>
+            <h1>Concept: Cook together</h1>
               <p>This project was a part of the course "Product Development within Meda Technology with the method Design-Build-Test". Togheter with a company of our choise we created a solution to make recipes great again.</p>       
             <div className ="portfolio__projects-left_content-description">
               <h2>DURATION</h2>
@@ -24,7 +36,7 @@ function Schysst() {
           </div>
         </div>
         <div className = "portfolio__projects-right" id = "schysst1">
-          <div className = "portfolio__projects-right_img" ><img src={logo} alt ="Schysst käk"id="schysst1_img"/></div>
+          <div className = "portfolio__projects-right_img" ><img src={logo} alt ="Schysst käk" id="schysst1_img"/></div>
         </div>
       </div>
 
@@ -33,7 +45,7 @@ function Schysst() {
 
       {/** Right grid */}
       <div className = "portfolio__projects">
-        <div className = "portfolio__projects-right" id = "schysst2"><img alt = "schysst käk"></img></div>
+        <div className = "portfolio__projects-right" id = "schysst2"><img src ={products} alt = "schysst käk"></img></div>
         <div className = "portfolio__projects-left">
               <div className = "portfolio__projects-left_content">
                   <h1>Background</h1>
@@ -43,6 +55,8 @@ function Schysst() {
               </div>
         </div>
       </div>
+
+
 
 
       {/** Left grid */}
@@ -59,7 +73,7 @@ function Schysst() {
                 </div>
              </div>
              <div className = "portfolio__projects-right" id = "schysst3">
-                 <img alt = "schysst käk"></img>
+                 <img src ={persona}alt = "schysst käk"></img>
              </div>
         </div>
 
@@ -68,7 +82,7 @@ function Schysst() {
 
           {/** Right grid */}
       <div className = "portfolio__projects">
-        <div className = "portfolio__projects-right" id = "schysst4"><img alt = "schysst käk"></img></div>
+        <div className = "portfolio__projects-right" id = "schysst4"><img  src ={man}alt = "schysst käk"></img></div>
         <div className = "portfolio__projects-left">
               <div className = "portfolio__projects-left_content">
                   <h1>Brainstorm & prototype</h1>
@@ -86,7 +100,11 @@ function Schysst() {
           <h1>Three different solutions</h1>
           <p>When the Hi-fi protoype was completed we did several user tests to ensure that our application satisfyed the requierments we specified in the beginning of the process.</p>
         </div>
-        <div className='portfolio__projects-solutions_img'></div>
+        <div className='portfolio__projects-solutions_img'>
+          <img src={barnkul}></img>
+          <img src={quiz}></img>
+          <img src={tillsammans}></img>
+        </div>
       </div>
 
 
@@ -107,7 +125,7 @@ function Schysst() {
                 </div>
              </div>
              <div className = "portfolio__projects-right" id = "schysst5">
-                 <img alt = "schysst käk"></img>
+                 <img src ={thing}alt = "schysst käk"></img>
              </div>
         </div>
 
@@ -115,7 +133,7 @@ function Schysst() {
 
        {/** Right grid */}
        <div className = "portfolio__projects">
-        <div className = "portfolio__projects-right" id = "schysst6"><img alt = "schysst käk"></img></div>
+        <div className = "portfolio__projects-right" id = "schysst6"><img src ={poster2}alt = "schysst käk"></img></div>
         <div className = "portfolio__projects-left">
               <div className = "portfolio__projects-left_content">
                   <h1>The result</h1>

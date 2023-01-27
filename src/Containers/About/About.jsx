@@ -7,47 +7,22 @@ import video from '../../Assets/video.mov';
 function About(){
 
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id ="about">
 
       <div className="overlay"></div>
 
        <video autoPlay loop muted id = "video"><source src={video}></source></video>
 
-       <div className='portfolio__about'>
+       <div className='portfolio__about' id = "about">
           <div className ="portfolio__about-content">
               <h1>It's all about <br/> the experience</h1>
-              <p> We’re not selling “big agency services at small agency prices”. We deliver exceptional design solutions to complex business problems – extremely efficiently and delivered at lightning-fast pace. <br/> <br/>Our experience has built us an enviable reputation for consistently delivering the wow factor, underpinned with intelligent and thoughtful design that is focused on delivering a clear return on your investment. Whether you’re looking for a full project solution or require specific design skills to complement your in-house team, we deliver solutions that pack a real punch.</p>
-              <h2><a href="https://www.w3schools.com" >Let's talk</a></h2>
+              <p>As a user-centered designer with a passion for creating intuitive and effective digital solutions, I have over 3 years of experience in the field of UX design. I am currently in my fourth year of a Master of Science program in UX design and working as a part-time UX consultant. My skills include user research, wireframing and prototyping, user testing, project management and programming. I also have an interest in graphic design. <br/> <br/>In my free time, I enjoy staying active and being outdoors in nature, which brings fresh perspectives to my work. I am always looking for new challenges and opportunities to improve my skills and deliver the best possible user experience."</p>
+              <h2><a href="mailto:emma.rosenlind@gmail.com" >Let's talk</a></h2>
           </div>
           <img src={pic} alt ="Me"/>
        </div>
       
     </div>
-  /*
-    <div className='portfolio'>
-      
-
-      <video autoPlay loop muted id = "video"><source src={video}></source></video>
-
-
-      <div className='portfolio__about'>
-
-          <div className ="portfolio__about-content">
-              <h1>It's all about <br/> the experience</h1>
-              <p> We’re not selling “big agency services at small agency prices”. We deliver exceptional design solutions to complex business problems – extremely efficiently and delivered at lightning-fast pace. <br/> <br/>Our experience has built us an enviable reputation for consistently delivering the wow factor, underpinned with intelligent and thoughtful design that is focused on delivering a clear return on your investment. Whether you’re looking for a full project solution or require specific design skills to complement your in-house team, we deliver solutions that pack a real punch.</p>
-              <h2><a></a>Let's talk</h2>
-          </div>
-
-
-          <img src={pic} />
-              
-      </div>
-
-    </div>
-    */
-   
-
-
   )
 }
 

@@ -1,0 +1,105 @@
+
+@-webkit-keyframes color-change-2x {
+    0% {
+    background: #F3CFFF;
+    }
+    100% {
+    background: #CFD4FF;
+    }
+    }
+    @keyframes color-change-2x {
+    0% {
+    background: #F3CFFF;
+    }
+    100% {
+    background: #CFD4FF;
+    }
+}
+
+#code_card{
+    background-color: black;
+}
+
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
+#coetus-cover{
+    background-color: #338F97;
+}
+ #gymtrack{
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+ }
+
+.portfolio__preview{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    transition: 0.5s;
+    padding-top: 3rem;
+}
+
+
+.portfolio__preview-card{
+    width: 30%;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.portfolio__preview-card:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+
+.portfolio__preview-card_image img{
+    width: 100%;
+}
+
+.portfolio__preview-card_text{
+    margin-top: 1rem;
+  
+    text-align: left;
+}
+
+.portfolio__preview-card_text h1{
+    font-size: 20px;
+}
+
+.portfolio__preview-card_text p{
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+
+.portfolio__preview-card h1:hover{
+    text-decoration: underline;
+}
+
+@media  screen and (max-width: 1200px) {
+    
+}
+
+
+@media  screen and (max-width: 950px) {
+       
+}
+
+
+@media  screen and (max-width: 650px) {
+   
+    .portfolio__preview{
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio__preview-card{
+        background-color: white;
+        width: 90%;
+    }
+}

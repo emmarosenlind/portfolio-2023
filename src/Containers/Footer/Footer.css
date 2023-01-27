@@ -1,4 +1,6 @@
-.portfolio__footer{
+
+
+.portfolio__footer-content{
     font-family: var(--font-family);
     color: white;
     background: black;
@@ -7,8 +9,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-
-    padding: 3rem;
+    padding: 10rem 30rem 3rem 30rem;
 }
 
 
@@ -21,6 +22,44 @@ line-height: 21px;
 .portfolio__footer p {
     font-weight: 300;
     font-size: 12px;
-    line-height: 145%;
+    line-height: 160%;
     text-align: center;
+
+}
+
+.portfolio__footer a{
+  text-decoration: underline;
+  color: pink;
+}
+
+
+
+
+@media  screen and (max-width: 1200px) {
+  .portfolio__footer-content{
+    padding: 10rem 20rem 3rem 20rem;
+  }
+  
+}
+
+@media  screen and (max-width: 950px) {
+  .portfolio__footer-content{
+    padding: 10rem 10rem 3rem 10rem;
+  }
+}
+
+
+@media  screen and (max-width: 650px) {
+
+  .portfolio__footer-content{
+    padding: 10rem 5rem 3rem 5rem;
+}
+}
+
+
+
+@media  screen and (max-width: 375px) {
+  .portfolio__footer-content{
+    padding: 10rem 1rem 3rem 1rem;
+}
 }

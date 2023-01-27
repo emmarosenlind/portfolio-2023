@@ -7,8 +7,8 @@ const Header = () => {
     <div className ="portfolio__header section-padding" id="home">
       
       <div className="portfolio__header-content">
-        <h1 className="gradient__text">Hi, I am Emma, a soon to be UX-lorem ipsum lorfsklsgfklsdfkl</h1>
-        <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis incididunt </p>
+        <h1 className="gradient__text">Hi, I am Emma, a soon to be UX-designer from Sweden who loves...</h1>
+        <p>Making boring things exciting, skiing down mountains, developing new skills, and creating designs that will make your heart skip a beat. Let's make something fun together!</p>
         <div className ="portfolio__header-content__links">
           <p><a href="https://www.w3schools.com">Linkedin</a></p>
           <p><a href="https://www.w3schools.com">Email</a></p>

@@ -6,7 +6,6 @@ function Object(props) {
     var Background = require(`../../Assets/${props.path}`)
     var styling = {
         style: {
-            backgroundColor: "#FFFFFF",
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",

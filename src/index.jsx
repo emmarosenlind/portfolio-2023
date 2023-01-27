@@ -1,22 +1,27 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import Uxdesign from './Components/Article/Uxdesign';
 import App from './App';
 import './App.css';
-import {Solwe} from './Containers';
-
-//import { Navbar, Menu } from './Components';
-//import { Header } from './Containers';
-//import Home from './Pages/Home/Home';
-
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
+import {Solwe, Schysst, GymTrack, Naturglass, Ove, Education, Coetus} from './Containers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
+        <ScrollToTop/>
+        
         <Routes>
-            <Route path="/portfolio" element={<App />} />
-            <Route path="/portfolio/Solwe" element={<Solwe />} />
+            <Route path="" element={<App />} />
+            <Route path="/Solwe" element={<Solwe />} />
+            <Route path="/Schysst" element={<Schysst />} />
+            <Route path="/Gymtrack" element={<GymTrack />} />
+            <Route path="/Naturglass" element={<Naturglass />} />
+            <Route path="/Ove" element={<Ove />} />
+            <Route path="/Education" element={<Education />} />
+            <Route path="/Coetus" element={<Coetus/>} />
         </Routes>
     </BrowserRouter>
 );
+
+
+

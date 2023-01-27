@@ -1,3 +1,8 @@
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
+
 .portfolio__menu-container{
     display: flex;
     flex-direction: row;
@@ -6,18 +11,16 @@
     justify-content: center;
     gap:25px;
     cursor: pointer;
-    
 }
 
 .portfolio__MenuItem p{
     transition: 0.5s;
-    
 }
 
 
 .portfolio__menu{
     text-align: center;
-    padding-top: 12rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
