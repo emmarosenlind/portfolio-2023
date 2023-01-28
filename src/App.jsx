@@ -1,11 +1,8 @@
 
 import './App.css';
-import {Navbar, Menu, Blog} from './Components';
+import {Navbar, Menu} from './Components';
 import {Footer, Header, About} from './Containers';
 import $ from 'jquery';
-
-//import {Header, Projects, About, Footer, Left, Right, Schysst, Solwe} from './Containers';
-//import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
 

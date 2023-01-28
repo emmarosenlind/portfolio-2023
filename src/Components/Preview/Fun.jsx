@@ -1,6 +1,5 @@
 import React from 'react'
 import './Preview.css'
-import ove from '../../Assets/ovetest.png';
 import solwe from '../../Assets/solwetest.png';
 import ng from '../../Assets/ng-preview.png';
 import coetus from '../../Assets/coetus.png';

@@ -3,9 +3,6 @@ import './Preview.css'
 import ove from '../../Assets/ovetest.png';
 import gt from '../../Assets/gt-preview.png';
 import schysst from '../../Assets/schysst-preview.png';
-import { CSSTransition } from 'react-transition-group';
-
-
 
 
 const Uxui = () => {
@@ -38,6 +35,7 @@ const Uxui = () => {
                 </div>
             </a>
         </div>
+
 
 
         <div className='portfolio__preview-card'>

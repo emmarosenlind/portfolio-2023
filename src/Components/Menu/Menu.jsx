@@ -1,18 +1,10 @@
 import React, {useState} from 'react'
-import { Designs } from '../../Containers'
 import {Code, Uxui, Fun} from '../../Components'
-import { CSSTransition } from 'react-transition-group';
-
-
-
-
-
 import './Menu.css'
 
 var styling = {
 
     selected: {
-      
         fontFamily: "var(--font-family)",
         fontWeight: 500,
         fontSize: "16px",
@@ -78,16 +70,10 @@ var styling = {
                         <p>#funstuff</p>
                 </div>
             </div>
-
-     
-
-
-              
                 {design ? <Uxui /> : ''}
                 {dev ? <Code transition={transition} /> : ''}
                 {fun ? <Fun /> : ''}
             </div>
-    
     )
 }
 

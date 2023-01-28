@@ -117,6 +117,7 @@ function GymTrack(){
 
 
 
+
         <div className = "portfolio__projects">
             <div className = "portfolio__projects-right" id ="gymtrack6">
                  <img src ={testing} alt ="text"></img>
@@ -132,9 +133,6 @@ function GymTrack(){
                 </div>
              </div>
         </div>
-
-
-
     </div>
   )
 }

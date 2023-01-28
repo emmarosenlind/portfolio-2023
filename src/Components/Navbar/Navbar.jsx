@@ -6,7 +6,6 @@ import './Navbar.css';
 const Menu = () => (
     <>
     <p><a href="#menu">Projects</a></p>
-   {/*  <p><a href="Education">Education</a></p>*/}
     <p><a href="#about">About</a></p>
     </>
 )
@@ -20,14 +19,13 @@ const Navbar = () => {
     <div className ="portfolio__navbar">
         <div className = "portfolio__navbar-links">
             <div className ="portfolio__navbar-links_logo">
-                <img src={logo} alt ="logo" />
+                <a href="/"><img src={logo} alt ="logo" /></a>
             </div>
             <div className="portfolio__navbar-links_container">
                 <Menu />
             </div>
             </div>
             <div className ="portfolio__navbar-sign">
-                
                 <button href="https://www.linkedin.com/in/emmarosenlind/" type="button">Contact</button>
             </div>
 
@@ -37,7 +35,6 @@ const Navbar = () => {
                     : <RiMenu3Line color= "#000" size = {27} onClick={() => setToggleMenu(true)} />
                 }
                 
-
                 {toggleMenu &&(
                     <div className ="portfolio__navbar-menu_container scale-up-center">
                         <div className ="portfolio__navbar-menu_container-links">

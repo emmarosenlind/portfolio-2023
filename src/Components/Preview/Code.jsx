@@ -1,9 +1,6 @@
 import React from 'react'
-import { CSSTransition } from 'react-transition-group';
 import './Preview.css'
-
 import cover from '../../Assets/code-cover.png';
-import gt from '../../Assets/gt-preview.png';
 
 const Code = ({transition}) => {
   
@@ -21,6 +18,7 @@ const Code = ({transition}) => {
             </a>
         </div>
 
+
         <div className='portfolio__preview-card'>
             <a href="portfolio/Schysst">
                 <div className='portfolio__preview-card_image'>
@@ -35,6 +33,5 @@ const Code = ({transition}) => {
     </div>
   )
 }
-
 
 export default Code

@@ -1,14 +1,9 @@
 import React from 'react'
-import naturglass from '../../../Assets/Naturglass.png';
-import logo from '../../../Assets/ng_logo.png';
-import { Navbar } from '../../../Components';
 import gth from '../../../Assets/gth.png';
 import bredvid from '../../../Assets/bredvid.jpeg';
 
 
 function Coetus(){
-
-    
   return (
     <div className='portfolio__solwe'>
         <div className = "portfolio__projects">

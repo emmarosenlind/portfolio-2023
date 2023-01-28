@@ -8,11 +8,8 @@ function About(){
 
   return (
     <div className='portfolio' id ="about">
-
       <div className="overlay"></div>
-
        <video autoPlay loop muted id = "video"><source src={video}></source></video>
-
        <div className='portfolio__about' id = "about">
           <div className ="portfolio__about-content">
               <h1>It's all about <br/> the experience</h1>
@@ -21,7 +18,6 @@ function About(){
           </div>
           <img src={pic} alt ="Me"/>
        </div>
-      
     </div>
   )
 }
