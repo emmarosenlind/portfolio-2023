@@ -1,7 +1,7 @@
 import React from 'react'
 import naturglass from '../../../Assets/Naturglass.png';
 import logo from '../../../Assets/ng_logo.png';
-import Favicon from 'react-favicon';
+
 
 
 function Naturglass(){
@@ -26,7 +26,7 @@ function Naturglass(){
                 <div className = "portfolio__projects-right_img" ><img src ={logo} id="naturglass1" alt = "solwe"/></div>
             </div>
         </div>
-        <div className ="naturglass_image"><img  src={naturglass}></img></div>
+        <div className ="naturglass_image"><img alt ="img" src={naturglass}></img></div>
     </div>
   )
 }

@@ -9,7 +9,7 @@ const Fun= () => {
     <div className='portfolio__preview'>
         <div className='portfolio__preview-card'>
             <a href="solwe"><div className='portfolio__preview-card_image'>
-                <img src ={solwe}></img>
+                <img src ={solwe} alt ="img"></img>
             </div>
             <div className='portfolio__preview-card_text'>
                 <p>#funstuff</p>
@@ -21,7 +21,7 @@ const Fun= () => {
         <div className='portfolio__preview-card'>
             <a href="naturglass">
               <div className='portfolio__preview-card_image'>
-                  <img src ={ng}></img>
+                  <img src ={ng} alt ="img"></img>
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#funstuff</p>
@@ -33,7 +33,7 @@ const Fun= () => {
         <div className='portfolio__preview-card' >
             <a href="/coetus">
                 <div className='portfolio__preview-card_image'id = "coetus-cover">
-                  <img src ={coetus}></img>
+                  <img src ={coetus} alt ="img"></img>
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#funstuff</p>

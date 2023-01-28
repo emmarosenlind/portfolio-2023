@@ -96,9 +96,9 @@ function Schysst() {
           <p>When the Hi-fi protoype was completed we did several user tests to ensure that our application satisfyed the requierments we specified in the beginning of the process.</p>
         </div>
         <div className='portfolio__projects-solutions_img'>
-          <img src={barnkul}></img>
-          <img src={quiz}></img>
-          <img src={tillsammans}></img>
+          <img alt ="img"src={barnkul}></img>
+          <img alt ="img"src={quiz}></img>
+          <img alt ="img"src={tillsammans}></img>
         </div>
       </div>
 

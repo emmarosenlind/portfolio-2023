@@ -41,7 +41,7 @@ function GymTrack(){
 
         <div className = "portfolio__projects">
             <div className = "portfolio__projects-right" id = "gymtrack2" style={{ backgroundImage: `url(${background})` }}>
-                <img></img>
+               
             </div>
             
             <div className = "portfolio__projects-left">

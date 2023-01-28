@@ -27,7 +27,7 @@ function Coetus(){
             </div>
 
             <div className = "portfolio__projects-right" id = "coetus">
-                <div className = "portfolio__projects-right_img" > <img src ={gth}></img>
+                <div className = "portfolio__projects-right_img" > <img src ={gth} alt ="img" ></img>
                 </div>
             </div>
         </div>

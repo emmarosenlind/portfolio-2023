@@ -13,7 +13,7 @@ const Uxui = () => {
         <div className='portfolio__preview-card'>
             <a href="/ove">
                 <div className='portfolio__preview-card_image'>
-                    <img src ={ove}></img>
+                    <img src ={ove} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
                     <p>#uxdesign</p>
@@ -27,7 +27,7 @@ const Uxui = () => {
         <div className='portfolio__preview-card'>
             <a href="/gymtrack">
                 <div className='portfolio__preview-card_image' id ="gymtrack">
-                    <img src ={gt}></img>
+                    <img src ={gt} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
                     <p>#uxdesign</p>
@@ -41,7 +41,7 @@ const Uxui = () => {
         <div className='portfolio__preview-card'>
             <a href="/schysst">
                 <div className='portfolio__preview-card_image'>
-                    <img src ={schysst}></img>
+                    <img src ={schysst} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
                     <p>#uxdesign</p>

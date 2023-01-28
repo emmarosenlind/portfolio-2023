@@ -1,6 +1,5 @@
 import React from 'react'
 import './Projects.css';
-import favicon from '../../Assets/logo.png'
 
 const Projects = () => {  
   

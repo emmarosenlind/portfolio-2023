@@ -9,7 +9,7 @@ const Code = ({transition}) => {
         <div className='portfolio__preview-card' >
             <a href="portfolio/ove">
               <div className='portfolio__preview-card_image' >
-                <img src ={cover}></img>
+                <img src ={cover} alt ="img"></img>
             </div>
             <div className='portfolio__preview-card_text'>
                 <p>#code</p>
@@ -22,7 +22,7 @@ const Code = ({transition}) => {
         <div className='portfolio__preview-card'>
             <a href="portfolio/Schysst">
                 <div className='portfolio__preview-card_image'>
-                  <img src ={cover}></img>
+                  <img src ={cover} alt ="img" ></img>
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#code</p>
