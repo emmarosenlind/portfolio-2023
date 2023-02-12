@@ -11,7 +11,7 @@ root.render(
         <ScrollToTop/>
         
         <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="/" element={<App/>} />
             <Route path="/Solwe" element={<Solwe />} />
             <Route path="/Schysst" element={<Schysst />} />
             <Route path="/Gymtrack" element={<GymTrack />} />
