@@ -22,7 +22,7 @@
     left: 0;
     width: 100%; 
     min-height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url(https://player.vimeo.com/external/545176917.sd.mp4?s=8c81c1101030ce5477a2a6d78bc5e3bf0b9ddab6&profile_id=165&oauth2_token_id=57447761);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.84)), url(https://player.vimeo.com/external/545176917.sd.mp4?s=8c81c1101030ce5477a2a6d78bc5e3bf0b9ddab6&profile_id=165&oauth2_token_id=57447761);
     mix-blend-mode: luminosity;
 }
 
