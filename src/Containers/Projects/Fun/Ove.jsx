@@ -10,12 +10,13 @@ function Ove(){
             <div className ="portfolio__projects-left">
                 <div className ="portfolio__projects-left_content">
                     <h1>Ove: Make shopping smarter</h1>
-                    <p>The task is based on a fictitious scenario where the customer Naturglass Factory wants to launch a new website in connection with their international expansion. The design was supposed to go along with the following keywords: Natural ingredients, floral, happy, tasty, organic and bright. My job was to create an unique webdesign based on the keywords.</p>
+                    <p>OVE is an app that gathers all of your memberships and membership benefits. It also shows store offers based on your preferences. By enabling location services, OVE will also notify you of active deals in your vicinity. </p>
                     <div className ="portfolio__projects-left_content-description">
                         <h2>DURATION</h2>
-                        <p>5 - 10 hours during entrance test for UX/UI employment</p>
+                        <p>5 month during the course "Business Service Design and Technology Development"</p>
                         <h2>ROLE</h2>
-                        <p>UX/UI-design, graphic material</p>
+                        <p>UX/UI-design, graphic material and business development</p>
+
                         <h2>TOOLS</h2>
                         <p>Adobe Photoshop, Adobe Illustrator and Figma</p>
                     </div>
@@ -38,8 +39,13 @@ function Ove(){
             <div className = "portfolio__projects-left">
                 <div className = "portfolio__projects-left_content">
                     <h1>The challenge</h1>
-                    <p>The hackathon Good Tech Hack took place in February 2021. The challenge was to create an innovative solution that society will benefit from, in 24 hours. The theme was based on the eleventh global goal of the United Nations - Sustainable cities and communities. Our team consisted of five participants. We decided on the challenge about social inclusion:
-                    </p>              
+                    <p>This project is part of the course in "Business Service Design and Technology Development".The challenge was to come up with a business idea, create a business model canvas, and develop a prototype. </p>           
+                    <h1>Our Solution</h1>
+                    <p>The business idea we've developed is called OVE, an app that clarifies your memberships and their benefits. Based on the user's preferences, the app also displays general offers from the stores in one platform. By enabling location services on the app, OVE will also notify the user of active offers in the surrounding area, reminding them to take advantage of their discounts while they shop.
+<br/><br/>
+What sets OVE apart from existing solutions is its unique combination of consolidated memberships and discounts. Other similar solutions, such as Mecenat and student cards, only focus on students. OVE is for everyone who wants to shop smart.
+</p>
+                
                 </div>
             </div>
         </div>
