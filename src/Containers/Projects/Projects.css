@@ -165,7 +165,7 @@
 }
 
 #gymtrack3 img{
-    width: 40rem;
+    width: 40vh;
 
 }
 
@@ -178,7 +178,7 @@
 }
 
 #gymtrack4 img{
-    width: 40rem;
+    width: 50vh;
 }
 
 #gymtrack5 {
@@ -194,7 +194,7 @@
 }
 
 #gymtrack6 img{
-    width: 35rem;
+    width: 50vh;
 }
 
 
@@ -283,6 +283,7 @@
         width: 100vw;
         height: 100vh;
     }
+
     
 }
 
@@ -306,16 +307,17 @@
         margin-left: 5rem;
     }
 
-
-
-
     .portfolio__projects-left_content{
-        flex-direction: column;
         padding:0;
-        
         vertical-align: middle;
-
         margin: 10rem 5rem 5rem 5rem;
+    }
+
+    #gymtrack1{
+        flex-direction: row-reverse;
+    }
+    #reverse{
+        flex-direction: column-reverse;
     }
 }
 

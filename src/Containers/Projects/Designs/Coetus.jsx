@@ -32,7 +32,7 @@ function Coetus(){
             </div>
         </div>
 
-        <div className = "portfolio__projects">
+        <div className = "portfolio__projects" id = "reverse">
             <div className = "portfolio__projects-right" id ="coetus2" style={{ backgroundImage: `url(${bredvid})`, 
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',

@@ -29,7 +29,7 @@ function Solwe(){
         </div>
 
 
-        <div className = "portfolio__projects">
+        <div className = "portfolio__projects" id = "reverse">
             <div className = "portfolio__projects-right" id ="solwe2" style={{ backgroundImage: `url(${background})`, 
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',

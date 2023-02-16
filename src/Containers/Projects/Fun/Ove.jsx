@@ -29,7 +29,7 @@ function Ove(){
 
 
 
-        <div className = "portfolio__projects">
+        <div className = "portfolio__projects" id ="reverse">
             <div className = "portfolio__projects-right" id ="coetus2" style={{ backgroundImage: `url(${cover})`, 
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',

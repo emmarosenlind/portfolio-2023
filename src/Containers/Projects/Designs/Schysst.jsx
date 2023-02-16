@@ -40,7 +40,7 @@ function Schysst() {
 
 
       {/** Right grid */}
-      <div className = "portfolio__projects">
+      <div className = "portfolio__projects" id = "reverse">
         <div className = "portfolio__projects-right" id = "schysst2"><img src ={products} alt = "schysst käk"></img></div>
         <div className = "portfolio__projects-left">
             <div className = "portfolio__projects-left_content">
@@ -75,7 +75,7 @@ function Schysst() {
 
 
       {/** Right grid */}
-      <div className = "portfolio__projects">
+      <div className = "portfolio__projects" id = "reverse">
         <div className = "portfolio__projects-right" id = "schysst4"><img  src ={man}alt = "schysst käk"></img></div>
         <div className = "portfolio__projects-left">
               <div className = "portfolio__projects-left_content">
@@ -127,7 +127,7 @@ function Schysst() {
 
 
       {/** Right grid */}
-      <div className = "portfolio__projects">
+      <div className = "portfolio__projects" id = "reverse">
         <div className = "portfolio__projects-right" id = "schysst6"><img src ={poster2}alt = "schysst käk"></img></div>
         <div className = "portfolio__projects-left">
           <div className = "portfolio__projects-left_content">

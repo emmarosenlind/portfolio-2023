@@ -39,7 +39,7 @@ function GymTrack(){
 
 
 
-        <div className = "portfolio__projects">
+        <div className = "portfolio__projects" id = "reverse">
             <div className = "portfolio__projects-right" id = "gymtrack2" style={{ backgroundImage: `url(${background})` }}>
                
             </div>
@@ -82,7 +82,7 @@ function GymTrack(){
 
 
 
-        <div className = "portfolio__projects">
+        <div className = "portfolio__projects" id = "reverse">
             <div className = "portfolio__projects-right" id = "gymtrack4">
                  <img src ={question}alt ="text"></img>
             </div>
@@ -118,7 +118,7 @@ function GymTrack(){
 
 
 
-        <div className = "portfolio__projects">
+        <div className = "portfolio__projects" id = "reverse">
             <div className = "portfolio__projects-right" id ="gymtrack6">
                  <img src ={testing} alt ="text"></img>
             </div>
