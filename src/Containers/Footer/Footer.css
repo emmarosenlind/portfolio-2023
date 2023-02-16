@@ -44,7 +44,7 @@ line-height: 21px;
 
 @media  screen and (max-width: 950px) {
   .portfolio__footer-content{
-    padding: 10rem 10rem 3rem 10rem;
+    padding: 0rem 10rem 3rem 10rem;
   }
 }
 
@@ -52,7 +52,7 @@ line-height: 21px;
 @media  screen and (max-width: 650px) {
 
   .portfolio__footer-content{
-    padding: 10rem 5rem 3rem 5rem;
+    padding: 0rem 5rem 3rem 5rem;
 }
 }
 
@@ -60,6 +60,6 @@ line-height: 21px;
 
 @media  screen and (max-width: 375px) {
   .portfolio__footer-content{
-    padding: 10rem 1rem 3rem 1rem;
+    padding: 0rem 1rem 3rem 1rem;
 }
 }
