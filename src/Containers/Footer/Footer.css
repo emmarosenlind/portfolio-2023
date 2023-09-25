@@ -3,7 +3,7 @@
 .portfolio__footer-content{
     font-family: var(--font-family);
     color: white;
-    background: black;
+    background: rgb(18, 18, 18);
     justify-content: center;
     align-items: center;
     display: flex;

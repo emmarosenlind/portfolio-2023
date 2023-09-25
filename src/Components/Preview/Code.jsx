@@ -13,7 +13,7 @@ const Code = ({transition}) => {
             </div>
             <div className='portfolio__preview-card_text'>
                 <p>#code</p>
-                <h1>Comming soon</h1>
+                <h1>Coming soon</h1>
             </div>
             </a>
         </div>
@@ -26,7 +26,7 @@ const Code = ({transition}) => {
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#code</p>
-                  <h1>Comming soon</h1>
+                  <h1>Coming soon</h1>
               </div>
             </a>
         </div>
