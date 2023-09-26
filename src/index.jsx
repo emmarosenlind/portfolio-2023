@@ -3,7 +3,7 @@ import App from './App';
 import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
-import {Solwe, Schysst, GymTrack, Naturglass, Ove, Education, Coetus} from './Containers';
+import {Solwe, Schysst, GymTrack, Naturglass, Ove, Education, Coetus, DataTjej, PathPilot} from './Containers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +19,11 @@ root.render(
             <Route path="/Ove" element={<Ove />} />
             <Route path="/Education" element={<Education />} />
             <Route path="/Coetus" element={<Coetus/>} />
+            <Route path="/datatjej" element={<DataTjej/>} />
+            <Route path="/pathpilot" element={<PathPilot/>} />
+
+            
+            
         </Routes>
     </BrowserRouter>
 );

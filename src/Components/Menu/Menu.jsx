@@ -8,7 +8,7 @@ var styling = {
         fontFamily: "var(--font-family)",
         fontWeight: 500,
         fontSize: "16px",
-        color: "pink"
+        color: "#26BEDF"
     },
     button: { 
         fontFamily: "var(--font-family)",
@@ -61,7 +61,7 @@ var styling = {
                 <div className='portfolio__MenuItem' 
                     style={dev ? styling.selected : styling.button} 
                     onClick={() => selectItem('u')}>
-                        <p>#code</p>
+                        <p>#awards</p>
                 </div>
 
                 <div className='portfolio__MenuItem' 

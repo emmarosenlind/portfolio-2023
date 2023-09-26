@@ -1,7 +1,8 @@
 #go_back{
-    top:0;
+    margin-top: 0;
     font-size: 14px;
     text-decoration: underline;
+
 }
 
 .portfolio__projects-left_back{
@@ -235,16 +236,14 @@
 
 #ove img{
     width: 20rem;
-    filter: drop-shadow(0 0 0.45rem rgba(0, 0, 0, 0.10));
-    
+    filter: drop-shadow(0 0 0.45rem rgba(0, 0, 0, 0.10)); 
 }
 
 
 
 /*-----------------Coetus----------*/
 #coetus{
-    background: linear-gradient(203.88deg, #8FE0E7 1.87%, #52B4BC 126.04%);
-
+    background: linear-gradient(204deg, #8FE0E7 1.87%, #52B4BC 126.04%);
 }
 
 #coetus img{
@@ -255,6 +254,13 @@
     object-fit: cover;
 }
 
+
+
+/*_____________DataTjej-------------*/
+
+#datatjej1{
+    background: linear-gradient(203.88deg, #373737 1.87%, #000000 126.04%);
+}
 
 
 

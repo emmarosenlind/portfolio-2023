@@ -25,8 +25,7 @@
 }
 
 #coetus-cover{
-    background-color: #338F97;
-}
+    background: linear-gradient(204deg, #8FE0E7 1.87%, #52B4BC 126.04%);}
  #gymtrack{
     -webkit-animation: color-change-2x 2s linear infinite alternate both;
     animation: color-change-2x 2s linear infinite alternate both;

@@ -1,19 +1,19 @@
 import React from 'react'
 import './Preview.css'
-import solwe from '../../Assets/solwetest.png';
+import DataTjej from '../../Assets/DataTjejPreview.png';
 import ng from '../../Assets/ng-preview.png';
-import coetus from '../../Assets/coetus.png';
+import PathPilot from '../../Assets/PathPilotPreview.png';
 
 const Fun= () => {
   return (
     <div className='portfolio__preview'>
         <div className='portfolio__preview-card'>
-            <a href="solwe"><div className='portfolio__preview-card_image'>
-                <img src ={solwe} alt ="img"></img>
+            <a href="datatjej"><div className='portfolio__preview-card_image'>
+                <img src ={DataTjej} alt ="Cover image of DataTjej"></img>
             </div>
             <div className='portfolio__preview-card_text'>
-                <p>#funstuff</p>
-                <h1>Nasa Space Apps Challenge</h1>
+                <p>#volunteering</p>
+                <h1>DataTjej: Touch up and maintenence</h1>
             </div>
             </a>
         </div>
@@ -21,7 +21,7 @@ const Fun= () => {
         <div className='portfolio__preview-card'>
             <a href="naturglass">
               <div className='portfolio__preview-card_image'>
-                  <img src ={ng} alt ="img"></img>
+                  <img src ={ng} alt ="Cover image of Naturglass"></img>
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#funstuff</p>
@@ -31,13 +31,13 @@ const Fun= () => {
         </div>
 
         <div className='portfolio__preview-card' >
-            <a href="/coetus">
-                <div className='portfolio__preview-card_image'id = "coetus-cover">
-                  <img src ={coetus} alt ="img"></img>
+            <a href="/PathPilot">
+                <div className='portfolio__preview-card_image'>
+                  <img src ={PathPilot} alt ="Cover image of PathPilot"></img>
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#funstuff</p>
-                  <h1>Good-tech hack</h1>
+                  <h1>Path Pilot</h1>
               </div>
             </a>
         </div>

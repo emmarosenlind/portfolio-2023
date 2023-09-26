@@ -12,3 +12,6 @@ export { default as Naturglass } from './Projects/Fun/Naturglass';
 export { default as Ove } from './Projects/Fun/Ove';
 export { default as Education } from './Education/Education';
 export { default as Designs } from './Projects/Projects';
+export {default as DataTjej } from './Projects/Designs/DataTjej'
+export {default as PathPilot } from './Projects/Designs/PathPilot'
+
