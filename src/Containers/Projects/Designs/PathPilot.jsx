@@ -3,9 +3,7 @@ import background from '../../../Assets/PathPilot1.png';
 import cover from '../../../Assets/PathPilot2.png';
 import profile from '../../../Assets/Profile.png';
 import content from '../../../Assets/content.png';
-import spaceapps from '../../../Assets/spaceapps.png';
-import datatjej from '../../../Assets/DataTjej.png';
-import logo from '../../../Assets/PathPilot1.png';
+
 
 
 
@@ -16,16 +14,9 @@ function PathPilot(){
         <div className = "portfolio__projects">
             <div className ="portfolio__projects-left">
                 <div className ="portfolio__projects-left_content">
-                    <h1>PathPilot: BLABLALBABLA</h1>
-                    <p>Our mentorship platform connects students and young professionals with experienced experts for tailored mentorship, emphasizing communication and networking to expand their knowledge and skills.</p>
-                    <div className ="portfolio__projects-left_content-description">
-                        <h2>DURATION</h2>
-                        <p>Spring 2023</p>
-                        <h2>ROLE</h2>
-                        <p>As a member of the tech/development team I was responsible for the concept and UI</p>
-                        <h2>TOOLS</h2>
-                        <p>Figma, React, Materials UI</p>
-                    </div>
+                    <h1>A mentorship platform for inclusion</h1>
+                    <p>During the course "Technology for Social Media," my team collaborated with Edith Cowan University in Australia to undertake a project aimed at promoting the inclusion of Indigenous teenagers. Our solution was is a mentorship platform that connects students and young professionals with experts for personalized mentorship experiences. The platform places a strong emphasis on communication and networking, allowing users to expand their knowledge and skills in a supportive and inclusive environment.</p>
+                    
                 </div>
             </div>
             <div className = "portfolio__projects-right" id ="solwe2" style={{ backgroundImage: `url(${background})`, 
@@ -46,8 +37,9 @@ function PathPilot(){
                 <div className = "portfolio__projects-left_content">
                 
                     <h1>Our solution</h1>
-                    <p>Our solution is “Solwe” - an application that simplifies the usage of worldwide renewable energy resources all together in one single application. Solwe will also provide the user with extra value by giving personalized advice and notifications that give off a feeling of AI. In all the visual representations the user has the freedom to change all the parameters and add data like e.g. rain to compare with. Solwe combines NASAs data with functions that let the users predict, compare, and plan their daily power consumption in a fun and user-friendly way.
-                    <br/> <br/>Are you interested in our research, flowcharts and requierment specification? Read more about the process <a href="https://www.w3schools.com" >here</a></p>
+                    <p>The project spanned the entire spring semester, with the Australian team serving as the client. Together with them, we conducted market research and identified user needs to lay the foundation for delivering a product. Working with users on the other side of the globe posed unique challenges during this project.
+                    <br/> <br/>
+                    The solution we delivered comprises a graphical concept, views for the majority of the user interface, and a backend system featuring a matching algorithm. This algorithm pairs young individuals with mentors based on their interests and specific needs.</p>
                 </div>
             </div>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import './Preview.css'
-import publication from '../../Assets/publication.svg';
+import publication from '../../Assets/publication.png';
 import solwe from '../../Assets/solwetest.png';
-import coetus from '../../Assets/coetus.png';
+import coetus from '../../Assets/Good Tech Hack.png';
 
 const Code = ({transition}) => {
   

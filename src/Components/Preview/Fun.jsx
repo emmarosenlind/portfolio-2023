@@ -9,11 +9,11 @@ const Fun= () => {
     <div className='portfolio__preview'>
         <div className='portfolio__preview-card'>
             <a href="datatjej"><div className='portfolio__preview-card_image'>
-                <img src ={DataTjej} alt ="Cover image of DataTjej"></img>
+                <img src ={DataTjej} alt ="Cover of DataTjej"></img>
             </div>
             <div className='portfolio__preview-card_text'>
                 <p>#volunteering</p>
-                <h1>DataTjej: Touch up and maintenence</h1>
+                <h1>DataTjej: Redesign and Maintenance</h1>
             </div>
             </a>
         </div>
@@ -21,10 +21,10 @@ const Fun= () => {
         <div className='portfolio__preview-card'>
             <a href="naturglass">
               <div className='portfolio__preview-card_image'>
-                  <img src ={ng} alt ="Cover image of Naturglass"></img>
+                  <img src ={ng} alt ="Cover of Naturglass"></img>
               </div>
               <div className='portfolio__preview-card_text'>
-                  <p>#funstuff</p>
+                  <p>#employmentcase</p>
                   <h1>Naturglass factory</h1>
               </div>
             </a>
@@ -33,7 +33,7 @@ const Fun= () => {
         <div className='portfolio__preview-card' >
             <a href="/PathPilot">
                 <div className='portfolio__preview-card_image'>
-                  <img src ={PathPilot} alt ="Cover image of PathPilot"></img>
+                  <img src ={PathPilot} alt ="Cover of PathPilot"></img>
               </div>
               <div className='portfolio__preview-card_text'>
                   <p>#funstuff</p>

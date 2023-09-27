@@ -166,8 +166,7 @@
 }
 
 #gymtrack3 img{
-    width: 40vh;
-
+    width: 30rem;
 }
 
 #gymtrack3 {
@@ -215,9 +214,7 @@
 }
 
 .naturglass_image img{
-
     width: 80vw;
-
 }
 
 #naturglass img{
@@ -243,7 +240,8 @@
 
 /*-----------------Coetus----------*/
 #coetus{
-    background: linear-gradient(204deg, #8FE0E7 1.87%, #52B4BC 126.04%);
+    background: linear-gradient(203.88deg, #8FE0E7 1.87%, #52B4BC 126.04%);
+
 }
 
 #coetus img{
@@ -283,14 +281,18 @@
         margin-right: 10rem;
         vertical-align: middle;
     }
-
+    #reverse{
+        flex-direction: column-reverse;
+    }
 
     .portfolio__projects-right{
         width: 100vw;
         height: 100vh;
     }
 
-    
+    #datatjej2{
+        display: none;
+    }
 }
 
 
@@ -364,6 +366,16 @@
         font-size: 14px;
         line-height: 24px;
     }
+
+    #gymtrack3 img{
+        width: 20rem;
+    }
+
+   
+.naturglass_image img{
+    width: 95vw;
+}
+  
 }
 
 

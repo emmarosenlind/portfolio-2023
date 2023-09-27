@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import {Solwe, Schysst, GymTrack, Naturglass, Ove, Education, Coetus, DataTjej, PathPilot} from './Containers';
+import Edu from './Edu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
             <Route path="/Coetus" element={<Coetus/>} />
             <Route path="/datatjej" element={<DataTjej/>} />
             <Route path="/pathpilot" element={<PathPilot/>} />
+            <Route path="/edu" element={<Edu/>} />
 
             
             

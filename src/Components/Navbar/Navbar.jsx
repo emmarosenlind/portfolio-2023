@@ -3,18 +3,28 @@ import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import logo from '../../Assets/logo.png';
 import './Navbar.css';
 
-const Menu = () => (
-    <>
-    <p><a href="#menu">Projects</a></p>
-    <p><a href="#about">About</a></p>
-    </>
-)
-
-
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
 
+const closeMenu = () => {
+    setToggleMenu(false);
+};
+
+
+const Menu = () => (
+    <>
+    <p><a href="/#menu" onClick={closeMenu}>Projects</a></p>
+    <p><a href="/#about" onClick={closeMenu}>About</a></p>
+    <p><a href="/edu" onClick={closeMenu}>Education</a></p>
+    </>
+)
+
+
+
+
+
+    
   return (
     <div className ="portfolio__navbar">
         <div className = "portfolio__navbar-links">
@@ -38,7 +48,7 @@ const Navbar = () => {
                 {toggleMenu &&(
                     <div className ="portfolio__navbar-menu_container scale-up-center">
                         <div className ="portfolio__navbar-menu_container-links">
-                            <Menu />
+                            <Menu/>
                         </div> 
                         <div className ="portfolio__navbar-menu_container-links-sign">
                         </div>

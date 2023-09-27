@@ -15,7 +15,8 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    background: #F9F6ED;
+    /*background: #F9F6ED;*/
+ 
     
 }
 
@@ -153,4 +154,8 @@ button:hover{
 
 .portfolio__navbar-menu_container-links-sign{
     display: block;
+}
+
+.custom-navbar{
+    background: red;
 }

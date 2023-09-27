@@ -1,15 +1,87 @@
+h1{
+  font-weight: 500;
+  font-size: 28px;
+  font-family: var(--font-family);
+}
+
+h2{
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+
+#edu_intro{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: var(--font-family);
+    margin-bottom: 3rem;
+    width: 40rem;
+}
+
+
+.portfolio__education{
+  padding: 5rem 15rem;
+}
+
+
 table {
-    font-family: arial, sans-serif;
+    font-family:var(--font-family);
     border-collapse: collapse;
     width: 100%;
+    border: 0;
+    background-color: #FBF7F2;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    
   }
   
+  
+
+  tr:nth-child(even){
+    background-color: #fff;
+  }
+
   td, th {
-    border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 1.5rem;
+   
   }
   
-  tr:nth-child(even) {
-    background-color: #dddddd;
+
+  @media  screen and (max-width: 1250px) {
+    .portfolio__education{
+      padding: 2rem 5rem;
+    }
+    #points{
+      width: 6rem;
+    }
+    #edu_intro{
+      width: auto;
   }
+}
+
+@media  screen and (max-width: 700px) {
+  .portfolio__education{
+    padding: 1rem 1rem;
+  }
+
+  table{
+    font-size: 12px;
+  }
+
+  #hide{
+    display: none;
+  }
+}
+
+@media  screen and (max-width: 550px) {
+  .portfolio__education{
+    padding: 1rem 0.75rem;
+  }  
+}
+.custom-navbar{
+  background: red;
+}
+  

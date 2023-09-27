@@ -16,7 +16,7 @@ const Uxui = () => {
                     <img src ={ove} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
-                    <p>#uxdesign</p>
+                    <p>#uxdesign  #businessdevelopment</p>
                     <h1>Ove: Makes shopping smarter</h1>
                 </div>
             </a>
@@ -44,7 +44,7 @@ const Uxui = () => {
                     <img src ={schysst} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
-                    <p>#uxdesign</p>
+                    <p>#uxdesign #concept</p>
                     <h1>Schysst Käk: Cook together</h1>
                 </div>
             </a>
