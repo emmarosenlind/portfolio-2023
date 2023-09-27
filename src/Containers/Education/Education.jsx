@@ -1,6 +1,7 @@
 import React from 'react'
 import './Education.css'
 //import {Navbar} from './Components/Navbar';
+import resume from '../../Assets/Resume.pdf';
 
 const Education = () => {
   return (
@@ -8,7 +9,7 @@ const Education = () => {
     <div className='portfolio__education'>
         
         <h1>Education</h1>
-        <p id="edu_intro">This section provides an overview of the courses I have undertaken throughout my academic journey at the university.</p>
+        <p id="edu_intro">This section provides an overview of the courses I have undertaken throughout my academic journey at the university. If your are interested in my professional experience, take a look at resume <a id ="resume_link" href={resume} blank>here</a></p>
 
 
         <h2>Mathematics</h2>

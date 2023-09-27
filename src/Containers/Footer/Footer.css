@@ -1,22 +1,28 @@
 
 
 .portfolio__footer-content{
-    font-family: var(--font-family);
-    color: white;
-    background: rgb(18, 18, 18);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 10rem 30rem 3rem 30rem;
+  font-family: var(--font-family);
+  color: white;
+  background: rgb(18, 18, 18);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem 30rem 3rem 30rem;
+  margin-top: -1px;
+}
+
+#smiley{
+  width:3rem;
+  margin-bottom: 1rem;
 }
 
 
 .portfolio__footer h1 {
-    font-weight: 400;
-font-size: 14px;
-line-height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .portfolio__footer p {
@@ -37,14 +43,14 @@ line-height: 21px;
 
 @media  screen and (max-width: 1200px) {
   .portfolio__footer-content{
-    padding: 10rem 20rem 3rem 20rem;
+    padding: 5rem 20rem 3rem 20rem;
   }
   
 }
 
 @media  screen and (max-width: 950px) {
   .portfolio__footer-content{
-    padding: 0rem 10rem 3rem 10rem;
+    padding: 2rem 10rem 3rem 10rem;
   }
 }
 
@@ -52,7 +58,7 @@ line-height: 21px;
 @media  screen and (max-width: 650px) {
 
   .portfolio__footer-content{
-    padding: 0rem 5rem 3rem 5rem;
+    padding: 2rem 4rem 3rem 4rem;
 }
 }
 
@@ -60,6 +66,6 @@ line-height: 21px;
 
 @media  screen and (max-width: 375px) {
   .portfolio__footer-content{
-    padding: 0rem 1rem 3rem 1rem;
+    padding: 1rem 1rem 3rem 1rem;
 }
 }
