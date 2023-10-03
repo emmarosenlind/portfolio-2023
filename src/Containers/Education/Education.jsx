@@ -9,7 +9,7 @@ const Education = () => {
     <div className='portfolio__education'>
         
         <h1>Education</h1>
-        <p id="edu_intro">This section provides an overview of the courses I have undertaken throughout my academic journey at the university. If your are interested in my professional experience, take a look at resume <a id ="resume_link" href={resume} blank>here</a></p>
+        <p id="edu_intro">This section provides an overview of the courses I have undertaken throughout my academic journey at the university. If your are interested in my professional experience, take a look at my resume <a id ="resume_link" href={resume} blank>here</a></p>
 
 
         <h2>Mathematics</h2>
@@ -216,11 +216,6 @@ const Education = () => {
                 <td>English Grammar</td>
                 <td id = "hide">Undergraduate</td>
                 <td id="points">6 hp</td>
-            </tr>
-            <tr>
-                <td>Introductory Algebra </td>
-                <td id = "hide">Undergraduate</td>
-                <td id="points">1.5 hp</td>
             </tr>
             <tr>
                 <td >Project Management 1</td>
