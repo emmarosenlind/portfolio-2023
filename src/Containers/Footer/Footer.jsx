@@ -1,6 +1,6 @@
 import {React} from 'react'
 import './Footer.css'
-import smallsmiley from '../../Assets/smallsmiley.png';
+import smallsmiley from '../../Assets/logo.png';
 
 const Footer = () => {
   return (

@@ -39,8 +39,8 @@
 }
 
 .portfolio__about p {
-    font-weight: 350;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 15px;
     line-height: 190%;
 }
 
@@ -60,7 +60,7 @@
 @media  screen and (max-width: 1200px) {
     .portfolio__about{
         flex-direction: column;
-        padding: 10rem 20rem 5rem 5rem;
+        padding: 5rem 20rem 5rem 5rem;
     }
     .portfolio{
         min-height: 160vh;
@@ -83,6 +83,7 @@
     }
     .portfolio__about img {
         margin-left: 5rem;
+        width: 80%;
     }
 }
 
@@ -93,12 +94,12 @@
         gap: 1rem;
     }
     .portfolio__about-content{
-        margin: 8rem 2rem 2rem 2rem;
+        margin: 4rem 1rem 1rem 1rem;
     }  
 
     .portfolio__about img {
         width: 90%;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .portfolio__about h2 {
         padding-top: 3rem;
@@ -121,7 +122,7 @@
         color: #1A1B41;
         border-top: 1px solid #F5FBEF;
     }
-    #krull,  .portfolio__navbar-links_logo img{
+    #krull,  .portfolio__navbar-links_logo img, #smiley{
         filter: invert(89%) sepia(2%) saturate(2912%) hue-rotate(55deg) brightness(121%) contrast(95%);
     }
 }
@@ -134,7 +135,7 @@
         color: #FAEEE0;
         border-top: 1px solid #4A4235;
     }
-    #krull,  .portfolio__navbar-links_logo img {
+    #krull,  .portfolio__navbar-links_logo img, #smiley{
         filter: invert(23%) sepia(35%) saturate(283%) hue-rotate(358deg) brightness(98%) contrast(91%);
     }
 }
@@ -147,7 +148,7 @@
         color: #ECDDFE;
         border-top: 1px solid #FF5500;
     }
-    #krull, .portfolio__navbar-links_logo img{
+    #krull, .portfolio__navbar-links_logo img, #smiley{
         filter: invert(37%) sepia(34%) saturate(4428%) hue-rotate(1deg) brightness(103%) contrast(106%);
     }
 }
@@ -161,7 +162,7 @@
         color: #E5F2FF;
         border-top: 1px solid #BB2511;
     }
-    #krull, .portfolio__navbar-links_logo img{
+    #krull, .portfolio__navbar-links_logo img, #smiley{
         filter: invert(18%) sepia(88%) saturate(2212%) hue-rotate(352deg) brightness(99%) contrast(99%);
     }
 }
@@ -174,8 +175,8 @@
         color: #FFE8AB;
         border-top: 1px solid #0C3406;
     }
-    #krull{
-        filter: brightness(0) saturate(100%) invert(86%) sepia(100%) saturate(257%) hue-rotate(317deg) brightness(100%) contrast(102%);    }
+    #krull, #smiley{
+        filter: invert(14%) sepia(37%) saturate(1555%) hue-rotate(73deg) brightness(93%) contrast(97%);    }
     .portfolio__navbar-links_logo img{
         filter: invert(14%) sepia(37%) saturate(1555%) hue-rotate(73deg) brightness(93%) contrast(97%);    }
 }
@@ -189,8 +190,8 @@
         color:  #FFC5C5;
         border-top: 1px solid  #155620;
     }
-    #krull{
-        filter: brightness(0) saturate(100%) invert(91%) sepia(28%) saturate(1029%) hue-rotate(294deg) brightness(102%) contrast(115%);
+    #krull, #smiley{
+        filter: brightness(0) saturate(100%) invert(28%) sepia(21%) saturate(1605%) hue-rotate(78deg) brightness(85%) contrast(93%);
     }    
     .portfolio__navbar-links_logo img{
         filter: brightness(0) saturate(100%) invert(28%) sepia(21%) saturate(1605%) hue-rotate(78deg) brightness(85%) contrast(93%);

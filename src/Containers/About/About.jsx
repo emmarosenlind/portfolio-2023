@@ -1,17 +1,18 @@
 import React, { useState, useEffect, useContext } from 'react';
 import './About.css';
 import pic1 from '../../Assets/pic1.png';
-import pic2 from '../../Assets/pic2.png';
-import pic3 from '../../Assets/pic3.png';
-import pic4 from '../../Assets/pic4.png';
+import pic2 from '../../Assets/pic10.png';
+import pic3 from '../../Assets/pic9.png';
+import pic4 from '../../Assets/pic11.png';
 import pic5 from '../../Assets/pic5.png';
-import pic6 from '../../Assets/pic6.png';
+import pic6 from '../../Assets/pic8.png';
 import pic7 from '../../Assets/pic7.png';
 import pic8 from '../../Assets/pic8.png';
 import pic9 from '../../Assets/pic9.png';
 import pic10 from '../../Assets/pic10.png';
 import pic11 from '../../Assets/pic11.png';
 import krull from '../../Assets/krull.svg';
+import smallsmiley from '../../Assets/logo.png';
 
 import FAQData from "../FAQ/FAQData";
 import { FaPlus, FaTimes } from "react-icons/fa"; // Importera plus-ikonen och kryss-ikonen från react-icons
@@ -97,8 +98,8 @@ function About() {
 
             <div className="portfolio__navbar-menu">
                 {toggleMenu
-                    ? <RiCloseLine color="#00" size = {27} onClick={() => setToggleMenu(false)} /> 
-                    : <RiMenu3Line color= "#000" size = {27} onClick={() => setToggleMenu(true)} />
+                    ? <RiCloseLine  size = {27} onClick={() => setToggleMenu(false)} /> 
+                    : <RiMenu3Line  size = {27} onClick={() => setToggleMenu(true)} />
                 }
                 
                 {toggleMenu &&(
@@ -151,6 +152,14 @@ function About() {
           src={krull}
           alt='me'
         />
+
+        <div className='portfolio__footer'>
+              <div className='portfolio__footer-content'>
+              <img id ="smiley"src ={smallsmiley} alt ="smiley" ></img>
+                <h1>Contact me</h1>
+                <p>Let's make something fun together! Email me at <a href="mailto:emma.rosenlind@gmail.com">emma.rosenlind@gmail.com</a> or connect at <a href="https://www.linkedin.com/in/emmarosenlind/">Linkedin</a> </p>
+              </div>
+          </div>
     </div>
   );
 }

@@ -24,12 +24,7 @@ function Ab() {
 
   return (
     <div className ="Edu">
-     
-      
       <About />
-
-   
-      <Footer/>
     </div>
   
   );
