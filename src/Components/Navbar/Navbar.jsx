@@ -15,7 +15,7 @@ const closeMenu = () => {
 const Menu = () => (
     <>
     <p><a href="/#menu" onClick={closeMenu}>Projects</a></p>
-    <p><a href="/#about" onClick={closeMenu}>About</a></p>
+    <p><a href="/ab" onClick={closeMenu}>About</a></p>
     <p><a href="/edu" onClick={closeMenu}>Education</a></p>
     </>
 )

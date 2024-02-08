@@ -1,0 +1,76 @@
+.portfolio{
+    align-self: center;
+    display: flex;
+    justify-self: center;
+
+}
+
+
+   
+
+/* FAQ.css */
+.faq-container {
+    margin-top: 1000px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 200px;
+   
+    font-family: var(--font-family);
+
+  }
+  .faq-container h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .faq {
+    
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+  }
+  
+  .faq:hover {
+   
+    .faq-question{
+        font-weight: 800;
+    }
+  }
+  
+  .faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    transition: all 0.4s ease;
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    font-weight: 300;
+    transition: all 0.2s ease;
+  }
+  
+  .faq.open .faq-answer {
+    max-height: 500px; /* Anpassa höjden efter behov */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 1; /* Visa svaret när frågan är öppen */
+  }
+  
+  .faq-divider {
+    border: none;
+    border-top: 1px solid black;
+    margin: 10px 0;
+  }
+  
+  
+  

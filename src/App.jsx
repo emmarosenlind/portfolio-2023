@@ -1,7 +1,7 @@
 
 import './App.css';
 import {Navbar, Menu} from './Components';
-import {Footer, Header, About} from './Containers';
+import {Footer, Header,} from './Containers';
 import $ from 'jquery';
 
 function App() {
@@ -23,7 +23,6 @@ function App() {
       <Navbar/>
       <Header/>
       <Menu/>
-      <About/>
       <Footer/>
     </div>
   

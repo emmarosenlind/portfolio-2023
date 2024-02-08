@@ -2,11 +2,12 @@
 import './App.css';
 import './Components/Navbar/Navbar.css';
 import {Navbar} from './Components';
-import {Footer, Education} from './Containers';
+import {Footer, About, FAQ} from './Containers';
+import { StyleProvider } from './ColorContext';
 import $ from 'jquery';
 
 
-function Edu() {
+function Ab() {
 
   $(document).ready(function(){       
     var scroll_pos = 0;
@@ -23,16 +24,15 @@ function Edu() {
 
   return (
     <div className ="Edu">
-      <Navbar className="custom-navbar">
-      style={{
-          background: "#689d3",
-        }}
-      </Navbar>
-      <Education/>
+     
+      
+      <About />
+
+   
       <Footer/>
     </div>
   
   );
 }
 
-export default Edu;
+export default Ab;

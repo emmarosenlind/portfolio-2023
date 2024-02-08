@@ -1,43 +1,45 @@
-.portfolio{
+.portfolio_ab{
     width: 100%;
     min-height: 100vh;
     position: relative;
+    transition: background-color 1.5s ease, color 1.5s ease; /* Lägg till övergångseffekter */
+    background-color: white;
 }
 
-.overlay{
+#krull{
+    width: 100%;
     position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%; 
-    min-height: 100%;
-    background: rgb(18, 18, 18);
-    mix-blend-mode: luminosity;
+    margin-top: -60px;
+    filter: invert(1);
+    /* or to blue */
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+    transition: filter 1.5s ease; /* Lägg till övergångseffekter */
+
+
 }
+
 
 
 .portfolio__about{
-    position: absolute;
-    z-index: 2;
     display: flex;
     justify-content: center;
     font-family: var(--font-family);
-    color: white;
-    display: flex;
-    padding: 10rem;
-    gap: 10rem;
-    display: flex;
+    padding: 5rem 10rem 10rem 10rem;
+    gap: 8rem;
     flex-direction: row; 
+    cursor: pointer; /* Visa pekaren när man hovrar över bilden */
 }
 
 .portfolio__about img {
     object-fit: contain; /* or cover */
-    width: 40%;
+    width: 48%;
     height: auto;
+    opacity: 1; /* Första bilden är synlig från början */
+    transition: opacity 1.5s ease, color 1.5s ease; /* Lägg till övergångseffekter */
 }
 
 .portfolio__about p {
-    font-weight: 300;
+    font-weight: 350;
     font-size: 14px;
     line-height: 190%;
 }
@@ -95,7 +97,7 @@
     }  
 
     .portfolio__about img {
-        width: 20rem;
+        width: 90%;
         margin-left: 2rem;
     }
     .portfolio__about h2 {
@@ -109,4 +111,88 @@
     .portfolio{
         min-height: 180vh;
     }
+}
+
+#style1 {
+    background-color: #1A1B41;
+    color: #F5FBEF;
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color: #F5FBEF;
+        color: #1A1B41;
+        border-top: 1px solid #F5FBEF;
+    }
+    #krull,  .portfolio__navbar-links_logo img{
+        filter: invert(89%) sepia(2%) saturate(2912%) hue-rotate(55deg) brightness(121%) contrast(95%);
+    }
+}
+
+#style2 {
+    background-color: #FAEEE0;
+    color: #4A4235;
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color: #4A4235;
+        color: #FAEEE0;
+        border-top: 1px solid #4A4235;
+    }
+    #krull,  .portfolio__navbar-links_logo img {
+        filter: invert(23%) sepia(35%) saturate(283%) hue-rotate(358deg) brightness(98%) contrast(91%);
+    }
+}
+
+#style3 {
+    background-color: #ECDDFE;
+    color: #FF5500;
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color: #FF5500;
+        color: #ECDDFE;
+        border-top: 1px solid #FF5500;
+    }
+    #krull, .portfolio__navbar-links_logo img{
+        filter: invert(37%) sepia(34%) saturate(4428%) hue-rotate(1deg) brightness(103%) contrast(106%);
+    }
+}
+
+
+#style4 {
+    background-color: #E5F2FF;
+    color: #BB2511;
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color: #BB2511;
+        color: #E5F2FF;
+        border-top: 1px solid #BB2511;
+    }
+    #krull, .portfolio__navbar-links_logo img{
+        filter: invert(18%) sepia(88%) saturate(2212%) hue-rotate(352deg) brightness(99%) contrast(99%);
+    }
+}
+
+#style5 {
+    background-color: #FFE8AB;
+    color: #0C3406;
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color: #0C3406;
+        color: #FFE8AB;
+        border-top: 1px solid #0C3406;
+    }
+    #krull{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(100%) saturate(257%) hue-rotate(317deg) brightness(100%) contrast(102%);    }
+    .portfolio__navbar-links_logo img{
+        filter: invert(14%) sepia(37%) saturate(1555%) hue-rotate(73deg) brightness(93%) contrast(97%);    }
+}
+
+#style6{
+    background-color: #FFC5C5;
+    color: #155620;
+
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color:  #155620;
+        color:  #FFC5C5;
+        border-top: 1px solid  #155620;
+    }
+    #krull{
+        filter: brightness(0) saturate(100%) invert(91%) sepia(28%) saturate(1029%) hue-rotate(294deg) brightness(102%) contrast(115%);
+    }    
+    .portfolio__navbar-links_logo img{
+        filter: brightness(0) saturate(100%) invert(28%) sepia(21%) saturate(1605%) hue-rotate(78deg) brightness(85%) contrast(93%);
+    }    
 }
