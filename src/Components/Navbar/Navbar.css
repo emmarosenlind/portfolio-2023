@@ -3,8 +3,6 @@
 :root {
   --font-family: 'Poppins';
   transition: 0.5s;
-  
-
 }
 
 a:hover{
@@ -16,9 +14,6 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    /*background: #F9F6ED;*/
- 
-    
 }
 
 .portfolio__navbar-links{
@@ -36,7 +31,6 @@ a:hover{
     width: 62px;
     height: 16;
     transition: filter 1.5s ease; /* Lägg till övergångseffekter */
-
 } 
 
 .portfolio__navbar-links_container{
@@ -59,7 +53,6 @@ a:hover{
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -68,7 +61,6 @@ a:hover{
 .portfolio__navbar-sign button, 
 .portfolio__navbar-menu_container button{
     padding: 0.5rem 1rem;
-   
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -110,7 +102,6 @@ button:hover{
     position: absolute;
     top: 40px;
     right: 0;
-
     margin-top: 1rem;
     max-width: 210px;
     border-radius: 5px; 
@@ -160,6 +151,4 @@ button:hover{
     display: block;
 }
 
-.custom-navbar{
-    background: red;
-}
+

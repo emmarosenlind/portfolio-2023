@@ -3,19 +3,15 @@
     min-height: 100vh;
     position: relative;
     transition: background-color 1.5s ease, color 1.5s ease; /* Lägg till övergångseffekter */
-    background-color: white;
 }
+
 
 #krull{
     width: 100%;
     position: absolute;
     margin-top: -60px;
-    filter: invert(1);
-    /* or to blue */
     filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
     transition: filter 1.5s ease; /* Lägg till övergångseffekter */
-
-
 }
 
 
@@ -24,10 +20,11 @@
     display: flex;
     justify-content: center;
     font-family: var(--font-family);
-    padding: 5rem 10rem 10rem 10rem;
+    padding: 2rem 10rem 10rem 10rem;
     gap: 8rem;
     flex-direction: row; 
     cursor: pointer; /* Visa pekaren när man hovrar över bilden */
+    align-items: center;
 }
 
 .portfolio__about img {
@@ -47,6 +44,8 @@
 .portfolio__about h1 {
     font-weight: 400;
     padding-bottom: 2rem ;
+    font-size: 28px;
+    
 }
 
 .portfolio__about h2 {
@@ -55,6 +54,21 @@
     font-size: 18px;
     padding-top: 3rem;
     cursor: pointer;
+}
+
+@media screen and (min-width: 2001px) {
+    .portfolio__about p {
+        font-size: 24px;
+    }
+
+    .portfolio__about h1 {
+        font-size: 54px;
+    }
+
+    .portfolio__about{
+        padding: 5rem 20rem 5rem 20rem;
+        gap: 7rem;
+    }
 }
 
 @media  screen and (max-width: 1200px) {

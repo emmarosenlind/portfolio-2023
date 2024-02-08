@@ -21,7 +21,6 @@
   }
 
   .faq {
-    
     border-radius: 8px;
     margin-bottom: 10px;
     padding: 15px;
@@ -67,5 +66,9 @@
     margin: 10px 0;
   }
   
-  
+  @media screen and (min-width: 2001px) {
+    .faq-question{
+      font-size: 20px;
+    }
+  }
   

@@ -61,5 +61,22 @@
 @media  screen and (max-width: 375px) {
   .portfolio__footer-content{
     padding: 1rem 1rem 3rem 1rem;
+  }
 }
+
+@media screen and (min-width: 2001px) {
+  .portfolio__footer-content{
+    padding-top: 400px;
+  }
+
+  .portfolio__footer p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+  }
+
+  .portfolio__footer h1 {
+    font-weight: 400;
+    font-size: 24px;
+  }
 }

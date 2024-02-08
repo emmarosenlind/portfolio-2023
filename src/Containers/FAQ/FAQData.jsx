@@ -18,7 +18,7 @@ const FAQData = [
       },
       {
         question: "Hejsan hoppsan här ska det stå en fråga",
-        answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        answer: "During my free time, I enjoy exploring the great outdoors or expressing my creative side through knitting or other handcrafts, even though I don't always have the patience for it. I am always on the lookout for new challenges and opportunities to improve my skills and provide the best possible user experience.",
       },
       {
         question: "Hur kan jag kontakta dig?",
