@@ -3,7 +3,7 @@ import './About.css';
 import pic1 from '../../Assets/pic1.png';
 import pic2 from '../../Assets/pic10.png';
 import pic3 from '../../Assets/pic9.png';
-import pic4 from '../../Assets/pic10.png';
+import pic4 from '../../Assets/pic2.png';
 import pic5 from '../../Assets/pic5.png';
 import pic6 from '../../Assets/pic8.png';
 import pic7 from '../../Assets/pic12.png';
@@ -22,7 +22,7 @@ function About() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [currentStyleIndex, setCurrentStyleIndex] = useState(0);
   const [clicked, setClicked] = useState(false);
-  const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7];
+  const images = [ pic2,pic1, pic3, pic4, pic5, pic6, pic7];
   const styles = ["style1", "style2", "style3", "style4", "style5", "style6", "style7"];
   const styleValue = styles[currentStyleIndex]; // Flytta deklarationen hit
 
