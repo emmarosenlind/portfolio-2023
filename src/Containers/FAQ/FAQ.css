@@ -51,6 +51,7 @@
     opacity: 0;
     font-weight: 300;
     transition: all 0.2s ease;
+    font-weight: 400;
   }
   
   .faq.open .faq-answer {
