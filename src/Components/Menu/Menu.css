@@ -24,7 +24,6 @@
 .portfolio__menu{
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 5rem;
 }
 
 .portfolio__menu h1{
@@ -34,3 +33,13 @@
     padding-bottom: 2rem;
 }
 
+
+@media screen and (min-width: 2001px) {
+    .portfolio__menu h1{
+        font-size: 40px;
+    }
+
+    .portfolio__menu p{
+        font-size: 20px;
+    }
+}

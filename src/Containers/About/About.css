@@ -129,15 +129,12 @@
 }
 
 #style1 {
-    background-color: #1A1B41;
-    color: #F5FBEF;
+    background-color: white;
+    color: black;
     .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
-        background-color: #F5FBEF;
-        color: #1A1B41;
-        border-top: 1px solid #F5FBEF;
-    }
-    #krull,  .portfolio__navbar-links_logo img, #smiley{
-        filter: invert(89%) sepia(2%) saturate(2912%) hue-rotate(55deg) brightness(121%) contrast(95%);
+        background-color: black;
+        color: white;
+        border-top: 1px solid black;
     }
 }
 
@@ -210,4 +207,17 @@
     .portfolio__navbar-links_logo img{
         filter: brightness(0) saturate(100%) invert(28%) sepia(21%) saturate(1605%) hue-rotate(78deg) brightness(85%) contrast(93%);
     }    
+}
+
+#style7 {
+    background-color: #1A1B41;
+    color: #F5FBEF;
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+        background-color: #F5FBEF;
+        color: #1A1B41;
+        border-top: 1px solid #F5FBEF;
+    }
+    #krull,  .portfolio__navbar-links_logo img, #smiley{
+        filter: invert(89%) sepia(2%) saturate(2912%) hue-rotate(55deg) brightness(121%) contrast(95%);
+    }
 }

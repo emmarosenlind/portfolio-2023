@@ -102,3 +102,11 @@
         width: 90%;
     }
 }
+
+
+
+@media screen and (min-width: 2001px) {
+    .portfolio__preview p{
+        font-size: 30px;
+    }
+}

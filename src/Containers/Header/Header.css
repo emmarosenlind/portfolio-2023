@@ -152,3 +152,18 @@
     }
     
 }
+
+@media screen and (min-width: 2001px) {
+    .portfolio__header{
+        width: 130rem;
+    }
+
+    .portfolio__header-content p{
+        font-size: 40px;
+    }
+
+    .portfolio__header-content h1{
+        font-size: 80px;
+        line-height: 140%;
+    }
+}
