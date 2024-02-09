@@ -58,7 +58,8 @@ function About() {
 
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 50000);
+      setCurrentStyleIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 20000);
 
     return () => clearInterval(interval);
   }, [images.length]);
