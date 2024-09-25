@@ -14,6 +14,10 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
+    position: fixed;
+    background-color: inherit;
+    z-index: 1;
+    width: 100%;
 }
 
 .portfolio__navbar-links{

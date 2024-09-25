@@ -4,6 +4,7 @@
 
 #menu_p:hover{
     opacity: 50%;
+    text-decoration: underline;
 }
 
 .portfolio__menu-container{

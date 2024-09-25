@@ -3,6 +3,8 @@ import background from '../../../Assets/PathPilot1.png';
 import cover from '../../../Assets/PathPilot2.png';
 import profile from '../../../Assets/Profile.png';
 import content from '../../../Assets/content.png';
+import Chip from '../../../Components/Chip/Chip';
+import BackArrow from '../../../Components/BackArrow/BackArrow';
 
 
 
@@ -13,10 +15,15 @@ function PathPilot(){
     <div className='portfolio__solwe'>
         <div className = "portfolio__projects">
             <div className ="portfolio__projects-left">
+
                 <div className ="portfolio__projects-left_content">
+                    <div className='chip_container'>
+                        <Chip color= "var(--pathpilot-color)" text="UX Design"/>
+                        <Chip color= "var(--pathpilot-color)" text="UI Design"/>
+                        <Chip color= "var(--pathpilot-color)" text="Product Development"/>
+                    </div>
                     <h1>A mentorship platform for inclusion</h1>
                     <p>During the course "Technology for Social Media," my team collaborated with Edith Cowan University in Australia to undertake a project aimed at promoting the inclusion of Indigenous teenagers. Our solution was is a mentorship platform that connects students and young professionals with experts for personalized mentorship experiences. The platform places a strong emphasis on communication and networking, allowing users to expand their knowledge and skills in a supportive and inclusive environment.</p>
-                    
                 </div>
             </div>
             <div className = "portfolio__projects-right" id ="solwe2" style={{ backgroundImage: `url(${background})`, 

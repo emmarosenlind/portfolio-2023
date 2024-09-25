@@ -1,8 +1,11 @@
 import React from 'react'
 import './Preview.css'
 import ove from '../../Assets/ovetest.png';
+import plickpreview from '../../Assets/plickpreview.svg';
+import its from '../../Assets/its.svg';
 import gt from '../../Assets/gt-preview.png';
 import schysst from '../../Assets/schysst-preview.png';
+import Chip from '../Chip/Chip';
 
 
 const Uxui = () => {
@@ -11,13 +14,16 @@ const Uxui = () => {
   
     <div className='portfolio__preview'>
         <div className='portfolio__preview-card'>
-            <a href="/ove">
+            <a href="/plick">
                 <div className='portfolio__preview-card_image'>
-                    <img src ={ove} alt ="img" ></img>
+                    <img src ={plickpreview} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
-                    <p>#uxdesign  #businessdevelopment</p>
-                    <h1>Ove: Makes shopping smarter</h1>
+                    <div className='chip_container'>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Design"/>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Research"/>
+                    </div>
+                    <h1>Plick</h1>
                 </div>
             </a>
         </div>
@@ -25,13 +31,18 @@ const Uxui = () => {
       
 
         <div className='portfolio__preview-card'>
-            <a href="/gymtrack">
+            <a href="/sustainax">
                 <div className='portfolio__preview-card_image' id ="gymtrack">
                     <img src ={gt} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
-                    <p>#uxdesign</p>
-                    <h1>From dumb to smart AI driven user interfaces</h1>
+
+                    <div className='chip_container'>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Design"/>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Design"/>
+                    </div>
+
+                    <h1>SustainAx</h1>
                 </div>
             </a>
         </div>
@@ -39,13 +50,16 @@ const Uxui = () => {
 
 
         <div className='portfolio__preview-card'>
-            <a href="/schysst">
+            <a href="/its">
                 <div className='portfolio__preview-card_image'>
-                    <img src ={schysst} alt ="img" ></img>
+                    <img src ={its} alt ="img" ></img>
                 </div>
                 <div className='portfolio__preview-card_text'>
-                    <p>#uxdesign #concept</p>
-                    <h1>Schysst Käk: Cook together</h1>
+                    <div className='chip_container'>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="Accessibility"/>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Design"/>
+                    </div>
+                    <h1>ITS</h1>
                 </div>
             </a>
         </div>

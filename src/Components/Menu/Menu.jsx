@@ -8,7 +8,9 @@ var styling = {
         fontFamily: "var(--font-family)",
         fontWeight: 500,
         fontSize: "16px",
-        color: "#26BEDF",
+        textDecoration: "underline",
+        
+        
     },
     button: { 
         fontFamily: "var(--font-family)",
@@ -55,13 +57,13 @@ var styling = {
                 <div className='portfolio__MenuItem' 
                     style={design ? styling.selected : styling.button} 
                     onClick={() => selectItem('a')}>
-                        <p id="menu_p">Design</p>
+                        <p id="menu_p">UX Design</p>
                 </div>
 
                 <div className='portfolio__MenuItem' 
                     style={dev ? styling.selected : styling.button} 
                     onClick={() => selectItem('u')}>
-                        <p id="menu_p">Awards</p>
+                        <p id="menu_p">UI Design</p>
                 </div>
 
                 <div className='portfolio__MenuItem' 

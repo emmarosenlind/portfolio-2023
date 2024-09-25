@@ -2,9 +2,24 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import logo from '../../Assets/logo.png';
 import './Navbar.css';
+import { useEffect} from 'react';
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    const [rotation, setRotation] = useState(0);
+
+    const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const rotationDegree = scrollY * 0.5; // Justera denna faktor för mer eller mindre rotation
+        setRotation(rotationDegree);
+
+      };
+
+    useEffect(()=> {
+    window.addEventListener('scroll', function() {
+        handleScroll();
+    });
+    },[])
 
 
 const closeMenu = () => {
@@ -12,32 +27,36 @@ const closeMenu = () => {
 };
 
 
+
 const Menu = () => (
     <>
     <p><a href="/#menu" onClick={closeMenu}>Projects</a></p>
     <p><a href="/ab" onClick={closeMenu}>About</a></p>
-    <p><a href="/edu" onClick={closeMenu}>Education</a></p>
     </>
 )
-
-
-
-
-
     
   return (
     <div className ="portfolio__navbar">
         <div className = "portfolio__navbar-links">
             <div className ="portfolio__navbar-links_logo">
-                <a href="/"><img src={logo} alt ="logo" /></a>
+                <a href="/"><img style={{
+            display: "block",
+          transform: `rotate(${rotation/2}deg)`,
+          transition: "transform 0.1s ease",
+        }} src={logo} alt ="logo" /></a>
             </div>
             <div className="portfolio__navbar-links_container">
                 <Menu />
             </div>
             </div>
-            <div className ="portfolio__navbar-sign">
-                <button href="https://www.linkedin.com/in/emmarosenlind/" type="button">Contact</button>
-            </div>
+        <div className="portfolio__navbar-sign">
+            <button 
+                type="button" 
+                onClick={() => window.open("https://www.linkedin.com/in/emmarosenlind/", "_blank")}>
+                Contact
+            </button>
+        </div>
+
 
             <div className="portfolio__navbar-menu">
                 {toggleMenu

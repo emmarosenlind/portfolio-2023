@@ -6,6 +6,10 @@ import ScrollToTop from './ScrollToTop';
 import {Solwe, Schysst, GymTrack, Naturglass, Ove, Education, Coetus, DataTjej, PathPilot} from './Containers';
 import Edu from './Edu';
 import Ab from './AboutPage';
+import Plick from './Containers/Projects/Designs/Plick';
+import SustainAx from './Containers/Projects/Designs/SustainAx';
+import Its from './Containers/Projects/Designs/Its';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +29,9 @@ root.render(
             <Route path="/pathpilot" element={<PathPilot/>} />
             <Route path="/edu" element={<Edu/>} />
             <Route path="/Ab" element={<Ab/>} />
-
+            <Route path="/Plick" element={<Plick/>} />
+            <Route path="/SustainAx" element={<SustainAx/>}/>
+            <Route path="/its" element={<Its/>}/>
             
             
         </Routes>

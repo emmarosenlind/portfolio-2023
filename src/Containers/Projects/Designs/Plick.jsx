@@ -1,6 +1,7 @@
 import React from 'react'
-import './Schysst.css'
-import logo from '../../../Assets/Schysst/schysstkak-logo.png';
+
+import Plickbild from '../../../Assets/plickbild.png';
+import PlickLogo from '../../../Assets/PlickLogo.png';
 import products from '../../../Assets/Schysst/products.png';
 import man from '../../../Assets/Schysst/man.png';
 import thing from '../../../Assets/Schysst/doyourthing.png';
@@ -14,38 +15,37 @@ import BackArrow from '../../../Components/BackArrow/BackArrow';
 
 
 
-function Schysst() {
+function Plick() {
   return (
 
     <div className = "portfolio__schysst">
-  
+    <BackArrow/>
       <div className = "portfolio__projects">
-
+      
         <div className ="portfolio__projects-left">
+
          
-          
           <div className ="portfolio__projects-left_content">
-          <BackArrow/>
-          <div className='chip_container'>
-            <Chip color= "var(--schysst-color)" text="Concept Design"/>
-            <Chip color= "var(--schysst-color)" text="UX Design"/>
-  
+
+
+            <div className='chip_container'>
+                <Chip color= "var(--plick-color)" text="UX Design"/>
+                <Chip color= "var(--plick-color)" text="UX Research"/>
             </div>
-            <h1>Concept: Cook together</h1>
-              <p>This project was a part of the course "Product Development within Meda Technology with the method Design-Build-Test". Togheter with a company of our choise we created a solution to make recipes great again.</p>       
+            
+            <h1>Project Heading</h1>
+            <p id="ingress">This project investigates the user experience of the listing process on the secondhand marketplace Plick, a platform for sustainable fashion. Using a design thinking approach, the study identifies and addresses user challenges and inefficiencies in the existing listing process. </p>
               <div className ="portfolio__projects-left_content-description">
                 <h2>DURATION</h2>
-                <p>20 weeks during the couse "Product Development within Meda Technology with the method Design-Build-Test"</p>
-                <h2>ROLE</h2>
-                <p>In a group of five people, I contributed with the UX/UI design and research</p>
+                <p>Six months</p>
                 <h2>TOOLS</h2>
-                <p>Adobe Photoshop, Adobe Illustrator and Figma</p>
+                <p>Design Thinking, User Interviews, Online Survey A/B testing, Wireframes, Figma</p>
               </div>
           </div>
         </div>
-        <div className = "portfolio__projects-right" id = "schysst1">
-          <div className = "portfolio__projects-right_img" >
-            <img src={logo} alt ="Schysst käk" id="schysst1_img"/></div>
+
+        <div className = "portfolio__projects-right" style={{ backgroundColor: "var(--plick-color)" }}>
+            <div className="portfolio__projects-right_img" ><img src ={PlickLogo} alt = "schysst käk"></img></div>
         </div>
       </div>
 
@@ -53,17 +53,26 @@ function Schysst() {
 
       {/** Right grid */}
       <div className = "portfolio__projects" id = "reverse">
-        <div className = "portfolio__projects-right" id = "schysst2"><img src ={products} alt = "schysst käk"></img></div>
+        <div className = "portfolio__projects-right" style={{backgroundImage:`url(${Plickbild})`}}></div>
+
         <div className = "portfolio__projects-left">
             <div className = "portfolio__projects-left_content">
                 <h1>Background</h1>
-                <p>The course is a project course, which means that we have worked as a team at a fictitious consulting company, where we have practiced our knowledge to, based on an idea that comes from a real need, design, build and test a concept. We were given free rein to choose a company that we thought seemed interesting. The choice landed on Schysst Käk, which is a Swedish food company that produces kebabs.</p>
+                <p>Plick is a Swedish marketplace platform specializing in sustainable fashion with over one million users across Sweden. The platform facilitates buying and selling of pre-owned clothing and accessories, promoting a circular economy and environmentally friendly consumption.</p>
                 <h3>The challenge</h3>  
-                <p>The task that Schysst Käk gave us was "make recipe great again". They wanted a modern, simple and fun recipe applicationwithout a lot of fuss. It were going to contain inspiration, recipes, unexpected functions and extra everything packaged in a flexible and functional solution. The keywords we got were: fun, unexpected, simple and functional.</p>            
-            </div>
+                <p>To enhance the user experience for sellers at the secondhand marketplace platform Plick, we aimed to improve the product listing process. The goal was to boost seller participation and ultimately establish Plick as the premier choice for reselling clothes.</p>
+                </div>
         </div>
       </div>
 
+      <div className ="portfolio__projects-solutions">
+        <div className='portfolio__projects-solutions_text'>
+          <p>value</p>
+          <h1>By utilizing a design thinking method, I designed a new listing process that promised higher perceived satisfaction and efficiency and increased user engagement.</h1>
+        </div>
+        <div className='portfolio__projects-solutions_img'>
+        </div>
+      </div>
 
 
       {/** Left grid */}
@@ -79,7 +88,7 @@ function Schysst() {
                 </div>
             </div>
             <div className = "portfolio__projects-right" id = "schysst3">
-                 <img src ={persona}alt = "schysst käk"></img>
+                
              </div>
       </div>
 
@@ -88,7 +97,7 @@ function Schysst() {
 
       {/** Right grid */}
       <div className = "portfolio__projects" id = "reverse">
-        <div className = "portfolio__projects-right" id = "schysst4"><img  src ={man}alt = "schysst käk"></img></div>
+        <div className = "portfolio__projects-right" id = "schysst4"></div>
         <div className = "portfolio__projects-left">
               <div className = "portfolio__projects-left_content">
                   <h1>Brainstorm & prototype</h1>
@@ -98,22 +107,6 @@ function Schysst() {
               </div>
         </div>
       </div>
-
-
-
-
-      <div className ="portfolio__projects-solutions">
-        <div className='portfolio__projects-solutions_text'>
-          <h1>Three different solutions</h1>
-          <p>When the Hi-fi protoype was completed we did several user tests to ensure that our application satisfyed the requierments we specified in the beginning of the process.</p>
-        </div>
-        <div className='portfolio__projects-solutions_img'>
-          <img alt ="img"src={barnkul}></img>
-          <img alt ="img"src={quiz}></img>
-          <img alt ="img"src={tillsammans}></img>
-        </div>
-      </div>
-
 
 
 
@@ -132,7 +125,6 @@ function Schysst() {
         </div>
 
         <div className = "portfolio__projects-right" id = "schysst5">
-          <img src ={thing}alt = "schysst käk"></img>
         </div>
       </div>
 
@@ -140,7 +132,7 @@ function Schysst() {
 
       {/** Right grid */}
       <div className = "portfolio__projects" id = "reverse">
-        <div className = "portfolio__projects-right" id = "schysst6"><img src ={poster2}alt = "schysst käk"></img></div>
+        <div className = "portfolio__projects-right" id = "schysst6"></div>
         <div className = "portfolio__projects-left">
           <div className = "portfolio__projects-left_content">
             <h1>The result</h1>
@@ -153,4 +145,4 @@ function Schysst() {
   )
 }
 
-export default Schysst
+export default Plick

@@ -3,6 +3,9 @@ import './Preview.css'
 import DataTjej from '../../Assets/DataTjejPreview.png';
 import ng from '../../Assets/ng-preview.png';
 import PathPilot from '../../Assets/PathPilotPreview.png';
+import publication from '../../Assets/publication.png';
+import Chip from '../Chip/Chip';
+
 
 const Fun= () => {
   return (
@@ -12,7 +15,10 @@ const Fun= () => {
                 <img src ={DataTjej} alt ="Cover of DataTjej"></img>
             </div>
             <div className='portfolio__preview-card_text'>
-                <p>#volunteering</p>
+            <div className='chip_container'>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="Management"/>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="Volunteering"/>
+                    </div>
                 <h1>DataTjej: Redesign and Maintenance</h1>
             </div>
             </a>
@@ -24,20 +30,25 @@ const Fun= () => {
                   <img src ={ng} alt ="Cover of Naturglass"></img>
               </div>
               <div className='portfolio__preview-card_text'>
-                  <p>#employmentcase</p>
-                  <h1>Naturglass factory</h1>
+              <div className='chip_container'>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="Graphic Design"/>
+                </div>                 
+                <h1>Visual Playground</h1>
               </div>
             </a>
         </div>
 
-        <div className='portfolio__preview-card' >
-            <a href="/PathPilot">
+        <div className='portfolio__preview-card'>
+            <a href="https://press.um.si/index.php/ump/catalog/book/786">
                 <div className='portfolio__preview-card_image'>
-                  <img src ={PathPilot} alt ="Cover of PathPilot"></img>
+                  <img src ={publication} alt ="img" ></img>
               </div>
               <div className='portfolio__preview-card_text'>
-                  <p>#funstuff</p>
-                  <h1>Path Pilot</h1>
+              <div className='chip_container'>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="Publication"/>
+                        <Chip isSmall color= "#000" textColor= "#fff"text="Research"/>
+                    </div>
+                  <h1>YOUNG ADULTS’ ATTITUDE TOWARDS DIGITAL PAYMENT METHODS AND FINANCIAL RESPONSIBILITY</h1>
               </div>
             </a>
         </div>
