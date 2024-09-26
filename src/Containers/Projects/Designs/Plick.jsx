@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Plickbild from '../../../Assets/plickbild.png';
+import Figma from '../../../Assets/figmalogo.svg';
 import PlickLogo from '../../../Assets/PlickLogo.png';
 import products from '../../../Assets/Schysst/products.png';
 import man from '../../../Assets/Schysst/man.png';
@@ -23,24 +24,30 @@ function Plick() {
       <div className = "portfolio__projects">
       
         <div className ="portfolio__projects-left">
+            <div className ="portfolio__projects-left_content">
 
-         
-          <div className ="portfolio__projects-left_content">
-
-
-            <div className='chip_container'>
-                <Chip color= "var(--plick-color)" text="UX Design"/>
-                <Chip color= "var(--plick-color)" text="UX Research"/>
-            </div>
+                <div className='chip_container'>
+                    <Chip color= "var(--plick-color)" text="UX Design"/>
+                    <Chip color= "var(--plick-color)" text="UX Research"/>
+                </div>
             
-            <h1>Project Heading</h1>
-            <p id="ingress">This project investigates the user experience of the listing process on the secondhand marketplace Plick, a platform for sustainable fashion. Using a design thinking approach, the study identifies and addresses user challenges and inefficiencies in the existing listing process. </p>
-              <div className ="portfolio__projects-left_content-description">
-                <h2>DURATION</h2>
-                <p>Six months</p>
-                <h2>TOOLS</h2>
-                <p>Design Thinking, User Interviews, Online Survey A/B testing, Wireframes, Figma</p>
-              </div>
+                <h1>Project Heading</h1>
+                <p id="ingress">To enhance the user experience for sellers at the secondhand marketplace platform Plick, we aimed to improve the product listing process. The goal was to boost seller participation and ultimately establish Plick as the premier choice for reselling clothes.</p>
+                <div className ="portfolio__projects-left_content-description">
+                    <h2>DURATION</h2>
+                    <p>Six months</p>
+                    <h2>TOOLS</h2>
+                <div className='chip_container'>
+                    <Chip icon={Figma} color= "#000" textColor="#fff" isSmall text="Figma"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="Design Thinking"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="Interviews"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="Online survey"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="Wireframes"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="A/B testing"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="UX Audit"/>
+                    <Chip color= "#000" textColor="#fff" isSmall text="Heuristic Evaluation"/>
+                </div>
+            </div>
           </div>
         </div>
 
@@ -57,10 +64,10 @@ function Plick() {
 
         <div className = "portfolio__projects-left">
             <div className = "portfolio__projects-left_content">
-                <h1>Background</h1>
-                <p>Plick is a Swedish marketplace platform specializing in sustainable fashion with over one million users across Sweden. The platform facilitates buying and selling of pre-owned clothing and accessories, promoting a circular economy and environmentally friendly consumption.</p>
-                <h3>The challenge</h3>  
-                <p>To enhance the user experience for sellers at the secondhand marketplace platform Plick, we aimed to improve the product listing process. The goal was to boost seller participation and ultimately establish Plick as the premier choice for reselling clothes.</p>
+
+                <h1>The challenge</h1> 
+                <p>Plick is a Swedish marketplace platform specializing in sustainable fashion with over one million users across Sweden. The platform facilitates buying and selling of pre-owned clothing and accessories, promoting a circular economy and sustainable consumption.</p> 
+                <p>Customers often perceive the effort required to resell clothes as disproportionate to the perceived value, leading them to discard or donate items instead. To address this challenge, I investigated how to optimize the listing process, which is a crucial step in the selling journey, in order to enhance user experience and increase user engagement. By streamlining the process, the goal was to make it easier and more efficient for users to create listings, ultimately encouraging more sellers to participate and contribute to Plick's sustainable marketplace.</p>
                 </div>
         </div>
       </div>
@@ -68,7 +75,7 @@ function Plick() {
       <div className ="portfolio__projects-solutions">
         <div className='portfolio__projects-solutions_text'>
           <p>value</p>
-          <h1>By utilizing a design thinking method, I designed a new listing process that promised higher perceived satisfaction and efficiency and increased user engagement.</h1>
+          <p id="quote">By utilizing a design thinking method, I designed a new listing process that promised higher perceived <b>satisfaction</b> and <b>efficiency</b>.</p>
         </div>
         <div className='portfolio__projects-solutions_img'>
         </div>

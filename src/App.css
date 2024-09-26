@@ -112,3 +112,9 @@ a {
 #ingress{
   font-size: 1.2rem;
 }
+
+#quote{
+  font-weight: 300;
+  font-size: 2.5rem;
+  padding: 0rem 5rem 0rem 5rem;
+}

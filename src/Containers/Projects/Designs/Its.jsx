@@ -30,7 +30,7 @@ function Its() {
 
             <div className='chip_container'>
                 <Chip color= "var(--its-color)" text="Accessibility"/>
-                <Chip color= "var(--its-color)" text="UX Design"/>
+                <Chip icon={PlickLogo} color= "var(--its-color)" text="UX Design"/>
             </div>
             
             <h1>Improve accessibility of administration system</h1>

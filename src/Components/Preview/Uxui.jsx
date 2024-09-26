@@ -20,8 +20,8 @@ const Uxui = () => {
                 </div>
                 <div className='portfolio__preview-card_text'>
                     <div className='chip_container'>
-                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Design"/>
-                        <Chip isSmall color= "#000" textColor= "#fff"text="UX Research"/>
+                        <Chip isSmall color= "var(--plick-color)" textColor= "#000"text="UX Design"/>
+                        <Chip isSmall color= "var(--plick-color)" textColor= "#000" text="UX Research"/>
                     </div>
                     <h1>Plick</h1>
                 </div>
