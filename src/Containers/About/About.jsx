@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import './About.css';
 import pic1 from '../../Assets/pic1.png';
 import pic2 from '../../Assets/pic10.png';
@@ -13,10 +13,14 @@ import FAQData from "../FAQ/FAQData";
 import { FaPlus, FaTimes } from "react-icons/fa"; // Importera plus-ikonen och kryss-ikonen från react-icons
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import logo from '../../Assets/logo.png';
+import { useEffect } from 'react';
 
 
 
 function About() {
+  
+
+
   const [faqs, setFaqs] = useState(FAQData.map((faq) => ({ ...faq, open: false })));
   const [toggleMenu, setToggleMenu] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -51,6 +55,13 @@ function About() {
   };
 
 
+const [xy,setXY] = useState([0,0])
+
+useEffect(()=> {
+  window.addEventListener('mousemove', function(event){
+    setXY([event.pageX,event.pageY])
+  })
+},[])
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * styles.length);
@@ -71,7 +82,9 @@ function About() {
   };
 
   return (
+    
     <div className= "portfolio_ab" id={styleValue} >
+      <div id="spotlight" style={{left: xy[0], top: xy[1]} }></div>
 
       <div className ="portfolio__navbar">
         <div className = "portfolio__navbar-links">

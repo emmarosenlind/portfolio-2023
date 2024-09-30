@@ -10,25 +10,46 @@ import BackArrow from './Components/BackArrow/BackArrow';
 
 function App() {
 
-  const c1 = "#FFE3DB"
+  const c1 = "#CFECF6"
   const c2 = "#ffffff"
+  const c3 = "#CFECF6"
   const [color, setColor] = useState(c1);
-  const [color2, setColor2] = useState(c2);
   const [xy,setXY] = useState([0,0])
 
-
-
   const lerpColorOnScroll = (t) => {
-    const interpolatedColor = interpolateHexColors(c1, c2, t);
-    setColor(interpolatedColor);
-  }
+    let color1;
+    let color2;
+    if(t <= 0.4){
+      t = t / 0.4;
+      color1 = c1;
+      color2 = c2;
+    }
+    else if(t <= 0.7){
+      setColor(c2)
+      return;
+    }
+    else{ // >= 0.7
+      color1 = c2;
+      color2 = c3;
+      t = (t-0.7)/0.3;
+
+    }
+   const interpolatedColor = interpolateHexColors(color1,color2,t);
+   setColor(interpolatedColor);
+  };
+  
 
   /*const lerpColorOnScroll2 = (t) => {
     const interpolatedColor = interpolateHexColors(c2, c1, t);
     setColor2(interpolatedColor);
   }*/
   
-
+    function getScrollPercentage() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      
+      return scrollTop / windowHeight;
+    }
 
 
   useEffect(()=> {
@@ -38,8 +59,8 @@ function App() {
     window.addEventListener('scroll', function(event) {
       let scrollPosition = window.scrollY;
       setXY([event.pageX,event.pageY])
-      const height = window.innerHeight;
-      const t = scrollPosition / height;
+     
+      const t = getScrollPercentage()
       const newT = Math.min((t/0.8100208768267223),1.0);
       lerpColorOnScroll(newT);
     //  lerpColorOnScroll2(newT)

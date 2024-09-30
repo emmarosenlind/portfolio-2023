@@ -60,7 +60,6 @@
 
 .portfolio__preview-card_text{
     margin-top: 1rem;
-  
     text-align: left;
 }
 
@@ -73,9 +72,6 @@
     font-size: 14px;
 }
 
-.portfolio__preview-card h1:hover{
-    text-decoration: underline;
-}
 
 @media  screen and (max-width: 1200px) {
     
@@ -97,7 +93,7 @@
     }
 
     .portfolio__preview-card{
-        background-color: white;
+        background-color: transparent;
         width: 90%;
     }
 }

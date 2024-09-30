@@ -13,6 +13,7 @@ function PathPilot(){
     
   return (
     <div className='portfolio__solwe'>
+            <BackArrow/>
         <div className = "portfolio__projects">
             <div className ="portfolio__projects-left">
 

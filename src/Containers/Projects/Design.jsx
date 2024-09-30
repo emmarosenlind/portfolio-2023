@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Object from './Object'
-
+//TAAAA BORT DENNA
 const Design = () => {
   return (
     <div className='portfolio__dev'>

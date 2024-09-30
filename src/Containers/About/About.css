@@ -141,7 +141,17 @@
 #style2 {
     background-color: #FAEEE0;
     color: #4A4235;
-    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+    #spotlight{
+        background: #ebfff2;
+        mix-blend-mode:exclusion;
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -150px;
+        z-index: 0;
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button #spotlight{
         background-color: #4A4235;
         color: #FAEEE0;
         border-top: 1px solid #4A4235;
@@ -154,7 +164,7 @@
 #style3 {
     background-color: #ECDDFE;
     color: #FF5500;
-    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button #spotlight{
         background-color: #FF5500;
         color: #ECDDFE;
         border-top: 1px solid #FF5500;
@@ -168,11 +178,23 @@
 #style4 {
     background-color: #E5F2FF;
     color: #BB2511;
-    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+    #spotlight{
+        background: radial-gradient(circle, rgb(5, 63, 255) 0%, 40%, #cfecf600 90%);
+        mix-blend-mode: screen;
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -150px;
+        z-index: 0;
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
+
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button #spotlight{
         background-color: #BB2511;
         color: #E5F2FF;
         border-top: 1px solid #BB2511;
     }
+
     #krull, .portfolio__navbar-links_logo img, #smiley{
         filter: invert(18%) sepia(88%) saturate(2212%) hue-rotate(352deg) brightness(99%) contrast(99%);
     }
@@ -181,7 +203,18 @@
 #style5 {
     background-color: #FFE8AB;
     color: #0C3406;
-    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+
+    #spotlight{
+        background: radial-gradient(circle, #f7d884 0%, 2%, #ffe9ab00 60%);
+        mix-blend-mode: multiply;
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -150px;
+        z-index: 0;
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button #spotlight{
         background-color: #0C3406;
         color: #FFE8AB;
         border-top: 1px solid #0C3406;
@@ -196,7 +229,18 @@
     background-color: #FFC5C5;
     color: #155620;
 
-    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
+    #spotlight{
+        background: radial-gradient(circle, #155620 0%, 2%, #ffe9ab00 60%);
+        mix-blend-mode: exclusion;
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -150px;
+        z-index: 0;
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
+
+    .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button #spotlight{
         background-color:  #155620;
         color:  #FFC5C5;
         border-top: 1px solid  #155620;
@@ -212,6 +256,17 @@
 #style7 {
     background-color: #1A1B41;
     color: #F5FBEF;
+
+    #spotlight{
+        background: radial-gradient(circle, #F5FBEF 0%, 90%, #ffffff00 100%);
+        mix-blend-mode:difference;
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -150px;
+        z-index: 0;
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
     .faq-divider, .portfolio__navbar-sign button, .portfolio__navbar-menu_container button{
         background-color: #F5FBEF;
         color: #1A1B41;

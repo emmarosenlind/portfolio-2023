@@ -1,24 +1,34 @@
 import React from 'react'
 import cover from '../../../Assets/ove-cover.png';
 import ove from '../../../Assets/ove1.png';
+import BackArrow from '../../../Components/BackArrow/BackArrow';
+import Chip from '../../../Components/Chip/Chip';
 
 
 function Ove(){
   return (
     <div className='portfolio__solwe'>
+        <BackArrow/>
         <div className = "portfolio__projects">
             <div className ="portfolio__projects-left">
                 <div className ="portfolio__projects-left_content">
-                    <h1>Ove: Make shopping smarter</h1>
-                    <p>OVE is an app that gathers all of your memberships and membership benefits. It also shows store offers based on your preferences. By enabling location services, OVE will also notify you of active deals in your vicinity. </p>
+                    <div className='chip_container'>
+                        <Chip color= "var(--ove-color)" text="Product Design"/>
+                        <Chip color= "var(--ove-color)" text="Business Development"/>
+                     </div>
+                    <h1>App for smarter shopping</h1>
+                    <p id="ingress">OVE is an app that gathers all of your memberships and membership benefits. It also shows store offers based on your preferences. By enabling location services, OVE will also notify you of active deals in your vicinity. </p>
                     <div className ="portfolio__projects-left_content-description">
                         <h2>DURATION</h2>
-                        <p>5 month during the course "Business Service Design and Technology Development"</p>
-                        <h2>ROLE</h2>
-                        <p>UX/UI-design, graphic material and business development</p>
-
+                        <p>5 months</p>
                         <h2>TOOLS</h2>
-                        <p>Adobe Photoshop, Adobe Illustrator and Figma</p>
+                        <div className='chip_container'>
+                            <Chip color= "#000" textColor="#fff" isSmall text="Figma"/>
+                            <Chip color= "#000" textColor="#fff" isSmall text="Adobe Photoshop"/>
+                            <Chip color= "#000" textColor="#fff" isSmall text="Business Model Canvas"/>
+                            <Chip color= "#000" textColor="#fff" isSmall text="Wireframes"/>
+                            <Chip color= "#000" textColor="#fff" isSmall text="Stakeholder Analysis"/>
+                        </div>
                     </div>
                 </div>
             </div>
