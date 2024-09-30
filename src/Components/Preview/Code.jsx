@@ -49,7 +49,7 @@ const Code = ({ transition }) => {
               />
               <Chip isSmall color="#000" textColor="#fff" text="UI Design" />
             </div>
-            <h1>PathPilot: A mentorship platform for inclusion</h1>
+            <h1>Mentorship platform for inclusion in Australia</h1>
           </div>
         </div>
       </div>

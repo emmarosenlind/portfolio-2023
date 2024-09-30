@@ -6,6 +6,7 @@ import PathPilot from "../../Assets/PathPilotPreview.png";
 import publication from "../../Assets/publication.png";
 import Chip from "../Chip/Chip";
 import { useNavigate } from "react-router-dom";
+import publicationpdf from "../../Assets/publication.pdf";
 
 const Fun = () => {
   const nav = useNavigate();
@@ -28,7 +29,7 @@ const Fun = () => {
       </div>
 
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/sustainax")}>
+        <div onClick={() => window.open(publicationpdf, "_blank")}>
           <div className="portfolio__preview-card_image">
             <img src={publication} alt="img"></img>
           </div>

@@ -1,10 +1,11 @@
 import React from "react";
 
 import Plickbild from "../../../Assets/plickbild.png";
+import aura from "../../../Assets/aura.svg";
 import Process from "../../../Assets/Plick/designprocess.svg";
 import Skiss from "../../../Assets/Plick/skiss.svg";
 import Figma from "../../../Assets/figmalogo.svg";
-import PlickLogo from "../../../Assets/PlickLogo.png";
+import PlickLogo from "../../../Assets/plicklogo.svg";
 import products from "../../../Assets/Schysst/products.png";
 import man from "../../../Assets/Schysst/man.png";
 import thing from "../../../Assets/Schysst/doyourthing.png";
@@ -15,6 +16,7 @@ import quiz from "../../../Assets/Schysst/vilken-kebab-ar-du.png";
 import tillsammans from "../../../Assets/Schysst/laga-tillsammans.png";
 import Chip from "../../../Components/Chip/Chip";
 import BackArrow from "../../../Components/BackArrow/BackArrow";
+import { FaArrowRight } from "react-icons/fa";
 
 function Plick() {
   return (
@@ -85,7 +87,12 @@ function Plick() {
 
         <div
           className="portfolio__projects-right"
-          style={{ backgroundColor: "var(--plick-color)" }}
+          style={{
+            backgroundImage: `url(${aura})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         >
           <div className="portfolio__projects-right_img">
             <img src={PlickLogo} alt="schysst käk"></img>
@@ -103,7 +110,7 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h1>The challenge</h1>
-            <p>
+            <p style={{ fontSize: "16px" }}>
               Plick is a Swedish marketplace platform specializing in
               sustainable fashion with over one million users across Sweden. The
               platform facilitates buying and selling of pre-owned clothing and
@@ -142,22 +149,22 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h1>Design process</h1>
-            <p>
+            <p style={{ fontSize: "16px" }}>
               The project is based on a design process called Design Thinking.
               It suggests that the design process should have five phases.
               Empathize, Define, Ideate, Prototype and Test. It's an iterative
               process where we repeat until we get the expected result.{" "}
             </p>
             <h3>Empathize</h3>
-            <p>
-              The findings from the empathize phase in the design thinking
-              process are described in this section. A survey was distributed to
-              users in the app, followed by interviews conducted with selected
-              users. Competitors were analyzed to understand the market, and the
-              usability of the existing listing process on Plick was evaluated
-              using heuristic guidelines. These methods helped in gaining a
-              better understanding of user needs and challenges, and preparing
-              for the next stage in the design process.
+            <p style={{ fontSize: "16px" }}>
+              In the empathize phase of the design thinking process, I conducted
+              a user survey within the app, followed by in-depth interviews with
+              selected participants. I also carried out a competitive analysis
+              to understand the market landscape and evaluated the usability of
+              Plick's existing listing process using heuristic guidelines. These
+              methods provided valuable insights into user needs and pain
+              points, laying a strong foundation for the subsequent design
+              stages.
             </p>
           </div>
         </div>
@@ -178,20 +185,19 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Define</h3>
-            <p>
-              After brainstorming, we landed in three different concepts and a
-              requirements specification for each concept was produced. The
-              concepts that were developed came to be called "Cook together",
-              "child fun" and "what kebab are you?". All three concepts differed
-              and had different purposes for the target group.
+            <p style={{ fontSize: "16px" }}>
+              In the define phase, I analyzed the data gathered during the
+              empathize phase to pinpoint user needs and pain points. Two
+              personas were created to represent key user segments, and user
+              stories were developed to capture their goals and challenges.
             </p>
             <h3>Ideate</h3>
-            <p>
-              After brainstorming, we landed in three different concepts and a
-              requirements specification for each concept was produced. The
-              concepts that were developed came to be called "Cook together",
-              "child fun" and "what kebab are you?". All three concepts differed
-              and had different purposes for the target group.
+            <p style={{ fontSize: "16px" }}>
+              In the ideate phase, I began by formulating "How Might We"
+              statements, which were later used in a collaborative workshop with
+              other UX designers at Plick. These statements inspired a range of
+              ideas that became the foundation for sketches and guided the
+              development in the prototyping phase.
             </p>
           </div>
         </div>
@@ -201,11 +207,17 @@ function Plick() {
       <div className="portfolio__projects">
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
-            <h3>Prototype</h3>
-            <p>
-              When the protoypes was completed we did several user tests to
-              ensure that our solution satisfyed the requierments we specified
-              in the beginning of the process.
+            <h3>Prototype iteration</h3>
+            <p style={{ fontSize: "16px" }}>
+              The prototyping phase was an iterative process, exploring and
+              refining various design concepts. Initially, two different
+              low-fidelity prototypes were developed. They were compared to each
+              other in the first user test.
+              <br />
+              <br />
+              Based on the results of the user tests, elements from both
+              concepts were combined to create the final prototype, utilizing
+              Plick's existing design system.
             </p>
           </div>
         </div>
@@ -222,24 +234,71 @@ function Plick() {
       <div className="portfolio__projects" id="reverse">
         <div
           className="portfolio__projects-right"
-          style={{ backgroundColor: "var(--plick-color" }}
-        ></div>
+          style={{
+            backgroundColor: "var(--plick-color",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <h4 style={{ fontWeight: 400, fontSize: "3rem" }}>
+            Percieved <b>efficiency</b> of
+            <br /> the listing process
+          </h4>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              gap: "2rem",
+              alignItems: "center",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <h2 style={{ fontSize: "5rem", fontWeight: 900 }}>5.0</h2>
+              <span>Old design</span>
+            </div>
+            <FaArrowRight />
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ></div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <h2 style={{ fontSize: "5rem", fontWeight: 900 }}>5.6</h2>
+              <span>Old design</span>
+            </div>
+          </div>
+        </div>
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Test</h3>
-            <p>
-              Based on customer feedback and test results the "Cook together"
-              concept was chosen. Cooking together allows families and friends
-              to cook Nice Cheek recipes together. The concept works as a game
-              where users choose a recipe, create a team and then get assigned
-              tasks.
+            <p style={{ fontSize: "16px" }}>
+              Participants were given instructions to upload an item for sale,
+              with half of the users testing the original design and the other
+              half using the new prototype. After completing the task, they were
+              asked to answer a series of questions regarding their experience
+              and rate it on a six-point likert scale. The results indicated
+              that users found the new design significantly more efficient and
+              satisfying to use,
               <br />
               <br />
-              The sub-tasks of the recipe are distributed within the team as the
-              game progresses. When a participant has completed their task,
-              click on it to get a new task. It is possible to join the game on
-              different devices and the game is adapted for children via the
-              "Kids Chef" mode.
             </p>
           </div>
         </div>

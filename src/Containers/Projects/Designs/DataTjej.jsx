@@ -16,7 +16,11 @@ function DataTjej() {
       <div className="portfolio__projects">
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
-            <h1>DataTjej</h1>
+            <div className="chip_container">
+              <Chip color="#000" textColor="#fff" text="Volunteering" />
+              <Chip color="#000" textColor="#fff" text="Management" />
+            </div>
+            <h1>DataTjej: Redesign and Maintenance</h1>
             <p>
               The Datatjej Association is a non-profit organization in Sweden
               with the aim of promoting gender equality in the field of computer
