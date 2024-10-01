@@ -10,7 +10,7 @@ import BackArrow from "./Components/BackArrow/BackArrow";
 function App() {
   const c1 = "#FFF1CF";
   const c2 = "#ffffff";
-  const c3 = "#CAFBFF";
+  const c3 = "#DEFCFF";
   const [color, setColor] = useState(c1);
   const [xy, setXY] = useState([0, 0]);
 
@@ -64,7 +64,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App" style={{ background: color }}>
+    <div className="App" style={{ background: color }} role="main">
       <div id="spotlight" style={{ left: xy[0], top: xy[1] }}></div>
       <Navbar />
       <Header />
