@@ -96,7 +96,7 @@ function About() {
     <div className="portfolio_ab" id={styleValue}>
       <div id="spotlight" style={{ left: xy[0], top: xy[1] }}></div>
 
-      <div className="portfolio__navbar">
+      <div className="portfolio__navbar" role="navigation">
         <div className="portfolio__navbar-links">
           <div className="portfolio__navbar-links_logo">
             <a href="/">
@@ -136,7 +136,11 @@ function About() {
         </div>
       </div>
 
-      <div className="portfolio__about" onClick={handleClick2}>
+      <div
+        className="portfolio__about"
+        onClick={handleClick2}
+        role="contentinfo"
+      >
         <div className="portfolio__about-content">
           <h1>
             It's all about <br /> the experience
@@ -157,7 +161,7 @@ function About() {
         <img src={images[currentImageIndex]} alt="me" />
       </div>
 
-      <div className="faq-container">
+      <div className="faq-container" role="menu">
         <h1 classname="faq-title">FAQ</h1>
         {faqs.map((faq, index) => (
           <div key={index}>
@@ -182,7 +186,7 @@ function About() {
       </div>
       <img id="krull" src={krull} alt="me" />
 
-      <div className="portfolio__footer">
+      <footer className="portfolio__footer">
         <div className="portfolio__footer-content">
           <img id="smiley" src={smallsmiley} alt="smiley"></img>
           <h1>Contact me</h1>
@@ -195,7 +199,7 @@ function About() {
             <a href="https://www.linkedin.com/in/emmarosenlind/">Linkedin</a>{" "}
           </p>
         </div>
-      </div>
+      </footer>
     </div>
   );
 }
