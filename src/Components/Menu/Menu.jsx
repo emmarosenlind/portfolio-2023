@@ -58,7 +58,7 @@ function Menu() {
   console.log("SELECTED", selected);
 
   return (
-    <div className="portfolio__menu" id="menu">
+    <div className="portfolio__menu" id="menu" role="menu">
       <h1> My work</h1>
       <div className="portfolio__menu-container">
         <div

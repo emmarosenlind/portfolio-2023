@@ -145,7 +145,7 @@ function Plick() {
       </div>
 
       {/** Left grid */}
-      <div className="portfolio__projects">
+      <div className="portfolio__projects" id="reverse">
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h1>Design process</h1>
@@ -177,7 +177,7 @@ function Plick() {
       </div>
 
       {/** Right grid */}
-      <div className="portfolio__projects" id="reverse">
+      <div className="portfolio__projects">
         <div
           className="portfolio__projects-right"
           style={{ backgroundColor: "var(--plick-color" }}
@@ -204,7 +204,7 @@ function Plick() {
       </div>
 
       {/** Left grid */}
-      <div className="portfolio__projects">
+      <div className="portfolio__projects" id="reverse">
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Prototype iteration</h3>
@@ -231,7 +231,7 @@ function Plick() {
       </div>
 
       {/** Right grid */}
-      <div className="portfolio__projects" id="reverse">
+      <div className="portfolio__projects">
         <div
           className="portfolio__projects-right"
           style={{

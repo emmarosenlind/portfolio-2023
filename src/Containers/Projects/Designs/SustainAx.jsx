@@ -130,7 +130,7 @@ function SustainAx() {
       </div>
 
       {/** Left grid */}
-      <div className="portfolio__projects">
+      <div className="portfolio__projects" id="reverse">
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h1>The working process</h1>

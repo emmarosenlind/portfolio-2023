@@ -142,12 +142,11 @@ function About() {
             It's all about <br /> the experience
           </h1>
           <p>
-            I am a user-centered designer with a passion for creating intuitive
-            and effective digital solutions. Currently, I am doing my fifth and
-            last year of a Master of Science program in UX design abroad at
-            Korea University. My skills include user research, wireframing, and
-            prototyping, user testing, project management, and programming. I
-            also have a keen interest in graphic design.
+            I am a user-centered designer passionate about creating intuitive
+            and effective digital solutions. Currently, I am working as a
+            consultant at Netlight. My skills include user research,
+            wireframing, prototyping, user testing, project management, and
+            programming. I also have a keen interest in graphic design.
             <br />
             <br />
           </p>

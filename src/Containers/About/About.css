@@ -37,14 +37,14 @@
 
 .portfolio__about p {
     font-weight: 400;
-    font-size: 15px;
-    line-height: 190%;
+    font-size: 1.3rem;
+    line-height: 160%;
 }
 
 .portfolio__about h1 {
     font-weight: 400;
     padding-bottom: 2rem ;
-    font-size: 28px;
+    font-size: 2rem;
     
 }
 

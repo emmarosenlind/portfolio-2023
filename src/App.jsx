@@ -8,9 +8,9 @@ import Chip from "./Components/Chip/Chip";
 import BackArrow from "./Components/BackArrow/BackArrow";
 
 function App() {
-  const c1 = "#FEA2A4";
+  const c1 = "#FFF1CF";
   const c2 = "#ffffff";
-  const c3 = "#F5FF9D";
+  const c3 = "#CAFBFF";
   const [color, setColor] = useState(c1);
   const [xy, setXY] = useState([0, 0]);
 

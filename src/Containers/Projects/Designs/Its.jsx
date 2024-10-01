@@ -79,8 +79,8 @@ function Its() {
           <p>value</p>
           <h1 id="quote">
             As a result of my work, the feature for tuition fees became
-            accessible according to WCAG standards and could serve as a model
-            for making other features within ITS equally accessible.
+            <b> accessible according to WCAG standards</b> and could serve as a
+            model for making other features within ITS equally accessible.
           </h1>
         </div>
         <div className="portfolio__projects-solutions_img"></div>
