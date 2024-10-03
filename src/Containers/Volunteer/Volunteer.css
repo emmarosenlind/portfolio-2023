@@ -3,11 +3,8 @@
     justify-content: center;
     font-family: var(--font-family);
     padding: 13rem 20rem 0rem 20rem;
-
     flex-direction: row; 
-    cursor: pointer; /* Visa pekaren när man hovrar över bilden */
     align-items: center;
-
 }
 
 .project{

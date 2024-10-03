@@ -1,19 +1,14 @@
 import React from "react";
 
 import Plickbild from "../../../Assets/plickbild.png";
+import Diagram from "../../../Assets/diagram.svg";
 import aura from "../../../Assets/aura.svg";
 import Process from "../../../Assets/Plick/designprocess.svg";
 import Skiss from "../../../Assets/Plick/skiss.svg";
+import Ideate from "../../../Assets/ideate.svg";
+import Table from "../../../Assets/plicktable.svg";
 import Figma from "../../../Assets/figmalogo.svg";
 import PlickLogo from "../../../Assets/plicklogo.svg";
-import products from "../../../Assets/Schysst/products.png";
-import man from "../../../Assets/Schysst/man.png";
-import thing from "../../../Assets/Schysst/doyourthing.png";
-import poster2 from "../../../Assets/Schysst/poster2.png";
-import persona from "../../../Assets/Schysst/persona.png";
-import barnkul from "../../../Assets/Schysst/barnkul.png";
-import quiz from "../../../Assets/Schysst/vilken-kebab-ar-du.png";
-import tillsammans from "../../../Assets/Schysst/laga-tillsammans.png";
 import Chip from "../../../Components/Chip/Chip";
 import BackArrow from "../../../Components/BackArrow/BackArrow";
 import { FaArrowRight } from "react-icons/fa";
@@ -95,7 +90,7 @@ function Plick() {
           }}
         >
           <div className="portfolio__projects-right_img">
-            <img src={PlickLogo} alt="schysst käk"></img>
+            <img src={PlickLogo} alt="plick logotype"></img>
           </div>
         </div>
       </div>
@@ -104,7 +99,12 @@ function Plick() {
       <div className="portfolio__projects" id="reverse">
         <div
           className="portfolio__projects-right"
-          style={{ backgroundImage: `url(${Plickbild})` }}
+          style={{
+            backgroundImage: `url(${Plickbild})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         ></div>
 
         <div className="portfolio__projects-left">
@@ -150,21 +150,21 @@ function Plick() {
           <div className="portfolio__projects-left_content">
             <h1>Design process</h1>
             <p style={{ fontSize: "1rem" }}>
-              The project is based on a design process called Design Thinking.
-              It suggests that the design process should have five phases.
-              Empathize, Define, Ideate, Prototype and Test. It's an iterative
-              process where we repeat until we get the expected result.{" "}
+              The project was based on a design process called{" "}
+              <b>Design Thinking</b>. It suggests that the design process should
+              have five phases. Empathize, Define, Ideate, Prototype and Test.
+              It's an iterative process where we repeat until we get the
+              expected result.
             </p>
             <h3>Empathize</h3>
             <p style={{ fontSize: "16px" }}>
-              In the empathize phase of the design thinking process, I conducted
-              a user survey within the app, followed by in-depth interviews with
-              selected participants. I also carried out a competitive analysis
-              to understand the market landscape and evaluated the usability of
-              Plick's existing listing process using heuristic guidelines. These
-              methods provided valuable insights into user needs and pain
-              points, laying a strong foundation for the subsequent design
-              stages.
+              In the empathize phase, I conducted a user survey within the app,
+              followed by in-depth interviews with selected users. I also
+              carried out a competitive analysis to understand the market
+              landscape and evaluated the usability of Plick's existing listing
+              process using heuristic guidelines. These methods provided
+              valuable insights into user needs and pain points, laying a strong
+              foundation for the subsequent design stages.
             </p>
           </div>
         </div>
@@ -181,7 +181,10 @@ function Plick() {
         <div
           className="portfolio__projects-right"
           style={{ backgroundColor: "var(--plick-color" }}
-        ></div>
+        >
+          {" "}
+          <img src={Skiss} alt="table of number of clicks"></img>
+        </div>
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Define</h3>
@@ -209,10 +212,12 @@ function Plick() {
           <div className="portfolio__projects-left_content">
             <h3>Prototype iteration</h3>
             <p style={{ fontSize: "1rem" }}>
-              The prototyping phase was an iterative process, exploring and
-              refining various design concepts. Initially, two different
-              low-fidelity prototypes were developed. They were compared to each
-              other in the first user test.
+              The prototyping phase followed an iterative process, where various
+              design concepts were explored and refined. Initially, two distinct
+              low-fidelity prototypes were created and evaluated through the
+              first round of user testing. The bar chart presents the results,
+              highlighting how users rated their overall experience with each
+              concept on a scale of 1 to 5.
               <br />
               <br />
               Based on the results of the user tests, elements from both
@@ -224,9 +229,9 @@ function Plick() {
 
         <div
           className="portfolio__projects-right"
-          style={{ backgroundColor: "var(--plick-color" }}
+          style={{ backgroundColor: "#fff" }}
         >
-          <img src={Skiss} alt="schysst käk"></img>
+          <img src={Diagram} alt="prototype sketches"></img>
         </div>
       </div>
 
