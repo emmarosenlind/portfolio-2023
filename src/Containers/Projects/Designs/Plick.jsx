@@ -26,12 +26,12 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
-              <Chip color="var(--plick-color)" text="UX Design" />
-              <Chip color="var(--plick-color)" text="UX Research" />
+              <Chip hasStroke text="UX Design" />
+              <Chip hasStroke text="UX Research" />
             </div>
 
             <h1>
-              Enhancing Efficieny and Satisfaction of the Listing Process on
+              Enhancing Efficiency and Satisfaction of the Listing Process on
               Plick
             </h1>
             <p id="ingress">
@@ -110,7 +110,7 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h1>The challenge</h1>
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "1rem" }}>
               Plick is a Swedish marketplace platform specializing in
               sustainable fashion with over one million users across Sweden. The
               platform facilitates buying and selling of pre-owned clothing and
@@ -149,7 +149,7 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h1>Design process</h1>
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "1rem" }}>
               The project is based on a design process called Design Thinking.
               It suggests that the design process should have five phases.
               Empathize, Define, Ideate, Prototype and Test. It's an iterative
@@ -185,14 +185,14 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Define</h3>
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "1rem" }}>
               In the define phase, I analyzed the data gathered during the
               empathize phase to pinpoint user needs and pain points. Two
               personas were created to represent key user segments, and user
               stories were developed to capture their goals and challenges.
             </p>
             <h3>Ideate</h3>
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "1rem" }}>
               In the ideate phase, I began by formulating "How Might We"
               statements, which were later used in a collaborative workshop with
               other UX designers at Plick. These statements inspired a range of
@@ -208,7 +208,7 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Prototype iteration</h3>
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "1rem" }}>
               The prototyping phase was an iterative process, exploring and
               refining various design concepts. Initially, two different
               low-fidelity prototypes were developed. They were compared to each
@@ -289,7 +289,7 @@ function Plick() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <h3>Test</h3>
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "1rem" }}>
               Participants were given instructions to upload an item for sale,
               with half of the users testing the original design and the other
               half using the new prototype. After completing the task, they were

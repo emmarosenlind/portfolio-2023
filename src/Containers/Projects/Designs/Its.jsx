@@ -22,8 +22,8 @@ function Its() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
-              <Chip color="var(--its-color)" text="Accessibility" />
-              <Chip color="var(--its-color)" text="UX Design" />
+              <Chip hasStroke text="Accessibility" />
+              <Chip hasStroke text="UX Design" />
             </div>
 
             <h1>
@@ -42,10 +42,10 @@ function Its() {
               <h2>TOOLS</h2>
               <div className="chip_container">
                 <Chip
-                  icon={Axure}
                   color="#000"
                   textColor="#fff"
                   isSmall
+                  icon={Axure}
                   text="Axure"
                 />
 

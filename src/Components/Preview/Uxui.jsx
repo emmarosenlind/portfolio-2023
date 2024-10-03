@@ -22,21 +22,11 @@ const Uxui = () => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip
-                isSmall
-                color="var(--plick-color)"
-                textColor="#000"
-                text="UX Design"
-              />
-              <Chip
-                isSmall
-                color="var(--plick-color)"
-                textColor="#000"
-                text="UX Research"
-              />
+              <Chip isSmall hasStroke textColor="#000" text="UX Design" />
+              <Chip isSmall hasStroke textColor="#000" text="UX Research" />
             </div>
             <h1>
-              Enhancing Efficieny and Satisfaction of the Listing Process on
+              Enhancing Efficiency and Satisfaction of the Listing Process on
               Plick
             </h1>
           </div>
@@ -50,18 +40,9 @@ const Uxui = () => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip
-                isSmall
-                color="var(--sustainax-color)"
-                textColor="#000"
-                text="UX Design"
-              />
-              <Chip
-                isSmall
-                color="var(--sustainax-color)"
-                textColor="#000"
-                text="Design Lead"
-              />
+              <Chip isSmall hasStroke textColor="#000" text="UX Design" />
+              <Chip isSmall hasStroke textColor="#000" text="Design Lead" />
+              <Chip isSmall hasStroke textColor="#000" text="Product Design" />
             </div>
 
             <h1>
@@ -79,18 +60,8 @@ const Uxui = () => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip
-                isSmall
-                color="var(--its-color)"
-                textColor="#000"
-                text="Accessibility"
-              />
-              <Chip
-                isSmall
-                color="var(--its-color)"
-                textColor="#000"
-                text="UX Design"
-              />
+              <Chip isSmall hasStroke textColor="#000" text="Accessibility" />
+              <Chip isSmall hasStroke textColor="#000" text="UX Design" />
             </div>
             <h1>
               Improve accessibility of public sector administration system

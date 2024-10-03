@@ -21,6 +21,7 @@
     border-radius: 6px;
     width: fit-content;
     font-family: poppins;
+
 }
 
 .chip-icon{
@@ -31,4 +32,13 @@
 
 .chip-small img{
     height: 16px;
+}
+
+
+.chip-stroke{
+    border: 1px solid black;
+}
+
+.chip-rounded {
+    border-radius: 106px;
 }

@@ -21,15 +21,10 @@ const Code = ({ transition }) => {
 
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip
-                isSmall
-                color="#000"
-                textColor="#fff"
-                text="Concept Design"
-              />
-              <Chip isSmall color="#000" textColor="#fff" text="UI Design" />
+              <Chip isSmall hasStroke textColor="#000" text="Concept Design" />
+              <Chip isSmall hasStroke textColor="#000" text="UI Design" />
             </div>
-            <h1>Schysst Käk</h1>
+            <h1>Schysst Käk: Make recipes great again</h1>
           </div>
         </div>
       </div>
@@ -41,13 +36,8 @@ const Code = ({ transition }) => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip
-                isSmall
-                color="#000"
-                textColor="#fff"
-                text="Concept Design"
-              />
-              <Chip isSmall color="#000" textColor="#fff" text="UI Design" />
+              <Chip isSmall hasStroke textColor="#000" text="UI Design" />
+              <Chip isSmall hasStroke textColor="#000" text="Concept Design" />
             </div>
             <h1>Mentorship platform for inclusion in Australia</h1>
           </div>
@@ -61,21 +51,16 @@ const Code = ({ transition }) => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
+              <Chip isSmall hasStroke textColor="#000" text="Product Design" />
               <Chip
                 isSmall
-                color="#000"
-                textColor="#fff"
-                text="Product Design"
-              />
-              <Chip
-                isSmall
-                color="#000"
-                textColor="#fff"
+                hasStroke
+                textColor="#000"
                 text="Business Development"
               />
-              <Chip isSmall color="#000" textColor="#fff" text="UI Design" />
+              <Chip isSmall hasStroke textColor="#000" text="UI Design" />
             </div>
-            <h1>App for smarter shoppingw</h1>
+            <h1>App for smarter shopping</h1>
           </div>
         </div>
       </div>

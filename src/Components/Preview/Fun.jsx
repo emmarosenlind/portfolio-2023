@@ -20,8 +20,8 @@ const Fun = () => {
 
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip isSmall color="#000" textColor="#fff" text="Management" />
-              <Chip isSmall color="#000" textColor="#fff" text="Volunteering" />
+              <Chip isSmall hasStroke textColor="#000" text="Management" />
+              <Chip isSmall hasStroke textColor="#000" text="Volunteering" />
             </div>
             <h1>DataTjej: Redesign and Maintenance</h1>
           </div>
@@ -35,8 +35,8 @@ const Fun = () => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip isSmall color="#000" textColor="#fff" text="Publication" />
-              <Chip isSmall color="#000" textColor="#fff" text="Research" />
+              <Chip isSmall hasStroke textColor="#000" text="Publication" />
+              <Chip isSmall hasStroke textColor="#000" text="Research" />
             </div>
             <h1>
               YOUNG ADULTS’ ATTITUDE TOWARDS DIGITAL PAYMENT METHODS AND

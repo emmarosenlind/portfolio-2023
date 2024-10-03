@@ -1,6 +1,7 @@
 import React from "react";
 import "./Schysst.css";
 import logo from "../../../Assets/Schysst/schysstkak-logo.png";
+import Figma from "../../../Assets/figmalogo.svg";
 import products from "../../../Assets/Schysst/products.png";
 import man from "../../../Assets/Schysst/man.png";
 import thing from "../../../Assets/Schysst/doyourthing.png";
@@ -20,25 +21,30 @@ function Schysst() {
           <div className="portfolio__projects-left_content">
             <BackArrow />
             <div className="chip_container">
-              <Chip color="var(--schysst-color)" text="Concept Design" />
-              <Chip color="var(--schysst-color)" text="UX Design" />
+              <Chip hasStroke text="Concept Design" />
+              <Chip hasStroke text="UX Design" />
             </div>
             <h1>Concept: Cook together</h1>
-            <p>
-              This project was a part of the course "Product Development within
-              Meda Technology with the method Design-Build-Test". Togheter with
-              a company of our choise we created a solution to make recipes
-              great again.
+            <p id="ingress">
+              Schysst Käk is one of Sweden's fastest-growing food companies,
+              aiming to empower everyone to create their own thing with homemade
+              kebabs. Schysst käk wanted to update their website and create a
+              modern, simple, and fun recipe application that would attract more
+              visitors to the website and increase engagement with their
+              products.
             </p>
             <div className="portfolio__projects-left_content-description">
               <h2>DURATION</h2>
-              <p>
-                20 weeks during the couse "Product Development within Meda
-                Technology with the method Design-Build-Test"
-              </p>
+              <p>Five months</p>
               <h2>TOOLS</h2>
               <div className="chip_container">
-                <Chip color="#000" textColor="#fff" isSmall text="Figma" />
+                <Chip
+                  color="#000"
+                  textColor="#fff"
+                  isSmall
+                  text="Figma"
+                  icon={Figma}
+                />
                 <Chip
                   color="#000"
                   textColor="#fff"
@@ -76,24 +82,18 @@ function Schysst() {
         </div>
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
-            <h1>Background</h1>
-            <p>
-              The course is a project course, which means that we have worked as
-              a team at a fictitious consulting company, where we have practiced
-              our knowledge to, based on an idea that comes from a real need,
-              design, build and test a concept. We were given free rein to
-              choose a company that we thought seemed interesting. The choice
-              landed on Schysst Käk, which is a Swedish food company that
-              produces kebabs.
-            </p>
-            <h3>The challenge</h3>
-            <p>
-              The task that Schysst Käk gave us was "make recipe great again".
-              They wanted a modern, simple and fun recipe applicationwithout a
-              lot of fuss. It were going to contain inspiration, recipes,
-              unexpected functions and extra everything packaged in a flexible
-              and functional solution. The keywords we got were: fun,
-              unexpected, simple and functional.
+            <h1>The challenge</h1>
+            <p style={{ fontSize: "1rem" }}>
+              Schysst Käk, one of Sweden's fastest-growing food companies, aimed
+              to empower people to create their own homemade kebabs. Their
+              products were available in most grocery stores across Sweden. They
+              tasked us with the challenge to "make recipes great again" by
+              developing a modern, simple, and fun recipe application. The goal
+              was to provide inspiration, innovative recipes, and unexpected
+              features in a flexible and functional solution. Schysst Käk wanted
+              the application to engage more visitors, increase interaction with
+              their products, and boost website traffic. The keywords guiding
+              the project were: fun, unexpected, simple, and functional.
             </p>
           </div>
         </div>
@@ -105,28 +105,29 @@ function Schysst() {
           <div className="portfolio__projects-left_content">
             <h1>Research</h1>
             <p>
-              The research phase was initiated by examining existing recipe
-              services, gathering information about Schysst käk and examining
-              the target group
+              The research phase began with an in-depth analysis of existing
+              recipe services, gathering insights about Schysst Käk, and
+              understanding the target audience.
             </p>
             <h3>Market & existing solutions</h3>
             <p>
-              Existing services that were investigated included Köket.se, Ica
-              and The Mix.1 These websites were evaluated based on useful
-              content and content that should be avoided on a future recipe idea
-              for Schysst käk's website. Information about Schysst käk was
-              collected from Schysst käk's website to investigate what the
-              company stands for and wants to convey. The existing recipe page
-              was examined and information from the kebab survey was collected.
+              Key recipe platforms like Köket.se, Ica, and The Mix were
+              evaluated to identify valuable features, as well as elements to
+              avoid when developing a new recipe concept for Schysst Käk’s
+              website. Additionally, a thorough review of Schysst Käk's website
+              provided insights into the brand’s core values and messaging. The
+              current recipe page was also assessed, along with valuable
+              findings from their kebab survey.
             </p>
             <h3>Targetgroup and users</h3>
             <p>
-              The target group is adults with children living at home. Most are
-              in the middle of life and trying to figure out the puzzle of life
-              with all that it entails. The target group values timesaving and
-              simple recipes. The target group was mapped through a survey
-              created with Google Forms. Issues examined were marital status,
-              relationship to cooking and the role of children in cooking.
+              The target audience consisted of adults with children living at
+              home, typically juggling the challenges of a busy life. They
+              prioritize time-saving, straightforward recipes. A Google Forms
+              survey helped map out this demographic, focusing on factors such
+              as marital status, cooking habits, and the involvement of children
+              in meal preparation. These insights were instrumental in shaping
+              the design approach for Schysst Käk’s recipe platform.
             </p>
           </div>
         </div>
@@ -144,23 +145,30 @@ function Schysst() {
           <div className="portfolio__projects-left_content">
             <h1>Brainstorm & prototype</h1>
             <p>
-              After brainstorming, we landed in three different concepts and a
-              requirements specification for each concept was produced. The
-              concepts that were developed came to be called "Cook together",
-              "child fun" and "what kebab are you?". All three concepts differed
-              and had different purposes for the target group.
-              <br /> <br />
-              Children's fun was about making children feel involved in cooking
-              and thinking that cooking is fun. The goal was for children to
-              explore recipes in an unexpected and fun way with a touch of
-              gamification. Under the concept of children's fun, four different
-              functions were gathered. The concept allows the user to answer a
-              number of questions and then the data from the annual kebab survey
-              is used as Schysst Käk, to develop a kind of "kebab personality".
-              The idea is to give the user a nice experience and recommend
-              recipes based on their kebab personality. "Cooking together" is a
-              concept that makes cooking a fun activity for the whole family. It
-              is a recipe game where everyone needs to contribute.
+              During the brainstorming phase, we developed three distinct
+              concepts, each with its own requirements specification. These
+              concepts were titled "Cooking Circus," "What Kebab Are You?" and
+              "Cooking Game." Each concept targeted different aspects of the
+              user experience, tailored to the needs of the audience.
+              <br />
+              <br />
+              <b>Cooking Circus</b> aimed to make cooking a fun and engaging
+              activity for children. The concept incorporated gamification
+              elements, encouraging kids to participate in meal preparation in a
+              creative and unexpected way. <b>What Kebab Are You?</b> focused on
+              providing users with a personalized experience based on their
+              kebab preferences. Leveraging data from Schysst Käk’s annual kebab
+              survey, this concept invited users to answer a series of
+              questions, which would then reveal their "kebab personality." The
+              idea was to offer a unique and enjoyable experience while
+              recommending recipes tailored to their preferences, creating a
+              deeper connection between users and the brand.{" "}
+              <b>The Cooking Game </b> was designed as a collaborative,
+              family-friendly concept. It transformed cooking into a group
+              activity where each family member could take on a role in
+              preparing the meal. This concept aimed to make cooking together
+              both fun and efficient, turning everyday meal preparation into an
+              entertaining and shared experience for the whole family.
             </p>
           </div>
         </div>
@@ -170,9 +178,9 @@ function Schysst() {
         <div className="portfolio__projects-solutions_text">
           <h1>Three different solutions</h1>
           <p>
-            When the Hi-fi protoype was completed we did several user tests to
+            When the protoypes were completed we did several user tests to
             ensure that our application satisfyed the requierments we specified
-            in the beginning of the process.
+            in the beginning of the process and to discover pain points.
           </p>
         </div>
         <div className="portfolio__projects-solutions_img">
@@ -188,32 +196,27 @@ function Schysst() {
           <div className="portfolio__projects-left_content">
             <h1>Prototype testing</h1>
             <p>
-              When the protoypes was completed we did several user tests to
-              ensure that our solution satisfyed the requierments we specified
-              in the beginning of the process.
-            </p>
-            <h3>Research Methods and Approaches</h3>
-            <p>
-              Testing has been carried out in three rounds. Prior to the first
-              test phase, the group developed test protocols for the different
-              prototypes. The protocols included formalities, instructions and
-              interview questions for the test person. The three Lofi prototypes
-              was then tested against a number of selected users.
+              Testing was conducted in three rounds. Before the first testing
+              phase, the team developed test protocols for the various
+              prototypes. These protocols included formalities, instructions,
+              and interview questions for the participants. The three
+              low-fidelity (Lo-Fi) prototypes were then tested with a selection
+              of users.
             </p>
             <h3>Result and findings</h3>
             <p>
-              As a result of testing the "what type of kebab are you?" concept,
-              we got important insights. Through observations of the users, it
-              was concluded that the recipe proposals ended up out of focus, as
-              many never scrolled down to the recipes when the test was
-              completed.
-              <br /> <br />
-              During tests on the concept of "cook together", many pointed out
-              that the task boxes were unclear. Two users also demonstrated the
-              benefit of implementing a "undo" button. Children who wants to
-              participate in cooking should be given child-adapted tasks with
-              some type of child mode and it should be possible to play together
-              on several devices.
+              The testing yielded valuable insights about all three concepts.
+              Observations revealed that recipe proposals lost focus, as many
+              users did not scroll down to view the recipes after completing the
+              test in "What Kebab Are You?"". In the Cooking Game, participants
+              noted that the task boxes were unclear and suggested the
+              implementation of an "undo" button, which would enhance the user
+              experience. Additionally, it was emphasized that children
+              participating in cooking should be given age-appropriate tasks,
+              ideally through a "child mode." Furthermore, the ability to play
+              together on multiple devices was identified as a beneficial
+              feature to enhance engagement and collaboration among family
+              members.
             </p>
           </div>
         </div>
@@ -232,18 +235,21 @@ function Schysst() {
           <div className="portfolio__projects-left_content">
             <h1>The result</h1>
             <p>
-              Based on customer feedback and test results the "Cook together"
-              concept was chosen. Cooking together allows families and friends
-              to cook Nice Cheek recipes together. The concept works as a game
-              where users choose a recipe, create a team and then get assigned
-              tasks.
+              Based on user feedback and test results, the "Cooking Game"
+              concept was selected for further development. This concept allows
+              families and friends to collaboratively prepare recipes in a fun,
+              game-like environment.
               <br />
               <br />
-              The sub-tasks of the recipe are distributed within the team as the
-              game progresses. When a participant has completed their task,
-              click on it to get a new task. It is possible to join the game on
-              different devices and the game is adapted for children via the
-              "Kids Chef" mode.
+              Users begin by choosing a recipe and forming a team, after which
+              they are assigned various tasks. As the game progresses, sub-tasks
+              for the recipe are distributed among team members. When a
+              participant completes their assigned task, they simply click on it
+              to receive a new one. The game supports participation from
+              multiple devices, enabling seamless collaboration. Additionally, a
+              "Kids Chef" mode is designed specifically for children, making it
+              easy for younger chefs to engage and enjoy the cooking experience
+              alongside their family.
             </p>
           </div>
         </div>

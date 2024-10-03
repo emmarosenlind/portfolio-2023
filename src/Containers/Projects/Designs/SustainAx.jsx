@@ -27,8 +27,8 @@ function SustainAx() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
-              <Chip color="var(--sustainax-color)" text="UX Design" />
-              <Chip color="var(--sustainax-color)" text="UX Lead" />
+              <Chip hasStroke text="UX Design" />
+              <Chip hasStroke text="UX Lead" />
             </div>
 
             <h1>

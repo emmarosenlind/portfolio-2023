@@ -17,8 +17,8 @@ function DataTjej() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
-              <Chip color="#000" textColor="#fff" text="Volunteering" />
-              <Chip color="#000" textColor="#fff" text="Management" />
+              <Chip hasStroke text="Volunteering" />
+              <Chip hasStroke text="Management" />
             </div>
             <h1>DataTjej: Redesign and Maintenance</h1>
             <p>

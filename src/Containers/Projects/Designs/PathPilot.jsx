@@ -5,6 +5,7 @@ import profile from "../../../Assets/Profile.png";
 import content from "../../../Assets/content.png";
 import Chip from "../../../Components/Chip/Chip";
 import BackArrow from "../../../Components/BackArrow/BackArrow";
+import Google from "../../../Assets/googlelogo.webp";
 
 function PathPilot() {
   return (
@@ -14,16 +15,16 @@ function PathPilot() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
-              <Chip color="var(--pathpilot-color)" text="Concept Design" />
-              <Chip color="var(--pathpilot-color)" text="UI Design" />
+              <Chip hasStroke text="Concept Design" />
+              <Chip hasStroke text="UI Design" />
             </div>
             <h1>Mentorship platform for inclusion in Australia</h1>
             <p id="ingress">
               This project was a collaboration with Edith Cowan University in
-              Australia to undertake promote the inclusion of Indigenous
-              teenagers. Our solution was a mentorship platform that connects
-              students and young professionals with experts for personalized
-              mentorship experiences.
+              Australia to promote the inclusion of Indigenous teenagers. Our
+              solution was a mentorship platform that connects students and
+              young professionals with experts for personalized mentorship
+              experiences.
             </p>
             <h3>TOOLS</h3>
             <div className="chip_container">
@@ -33,7 +34,19 @@ function PathPilot() {
                 isSmall
                 text="Design System"
               />
-              <Chip color="#000" textColor="#fff" isSmall text="Material UI" />
+              <Chip
+                icon={Google}
+                color="#000"
+                textColor="#fff"
+                isSmall
+                text="Material UI"
+              />
+              <Chip
+                color="#000"
+                textColor="#fff"
+                isSmall
+                text="Adobe Illustrator"
+              />
             </div>
           </div>
         </div>
