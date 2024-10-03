@@ -40,7 +40,7 @@ root.render(
       <Route path="/Ab" element={<Ab />} />
       <Route path="/Plick" element={<Plick />} />
       <Route path="/SustainAx" element={<SustainAx />} />
-      <Route path="/ts" element={<Its />} />
+      <Route path="/its" element={<Its />} />
     </Routes>
   </BrowserRouter>
 );

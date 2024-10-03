@@ -98,7 +98,11 @@ function SustainAx() {
         >
           {" "}
           <div className="portfolio__projects-right_img">
-            <img src={SustainAxChallenge} alt="schysst käk"></img>
+            <img
+              style={{ maxWidth: "80vw" }}
+              src={SustainAxChallenge}
+              alt="schysst käk"
+            ></img>
           </div>
         </div>
 

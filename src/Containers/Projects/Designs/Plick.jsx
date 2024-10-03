@@ -1,17 +1,16 @@
 import React from "react";
 
 import Plickbild from "../../../Assets/plickbild.png";
+import aura2 from "../../../Assets/auraresult.svg";
 import Diagram from "../../../Assets/diagram.svg";
+import Result from "../../../Assets/resultplick.svg";
 import aura from "../../../Assets/aura.svg";
 import Process from "../../../Assets/Plick/designprocess.svg";
 import Skiss from "../../../Assets/Plick/skiss.svg";
-import Ideate from "../../../Assets/ideate.svg";
-import Table from "../../../Assets/plicktable.svg";
 import Figma from "../../../Assets/figmalogo.svg";
 import PlickLogo from "../../../Assets/plicklogo.svg";
 import Chip from "../../../Components/Chip/Chip";
 import BackArrow from "../../../Components/BackArrow/BackArrow";
-import { FaArrowRight } from "react-icons/fa";
 
 function Plick() {
   return (
@@ -172,7 +171,10 @@ function Plick() {
           className="portfolio__projects-right"
           style={{ backgroundColor: "#000" }}
         >
-          <img src={Process} alt="schysst käk"></img>
+          <img
+            src={Process}
+            alt="Illustration of design thinking process"
+          ></img>
         </div>
       </div>
 
@@ -183,7 +185,11 @@ function Plick() {
           style={{ backgroundColor: "var(--plick-color" }}
         >
           {" "}
-          <img src={Skiss} alt="table of number of clicks"></img>
+          <img
+            src={Skiss}
+            style={{ maxWidth: "95%", mixBlendMode: "multiply" }}
+            alt="table of number of clicks"
+          ></img>
         </div>
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
@@ -229,9 +235,13 @@ function Plick() {
 
         <div
           className="portfolio__projects-right"
-          style={{ backgroundColor: "#fff" }}
+          style={{ backgroundColor: "#000" }}
         >
-          <img src={Diagram} alt="prototype sketches"></img>
+          <img
+            src={Diagram}
+            style={{ maxWidth: "85%" }}
+            alt="prototype sketches"
+          ></img>
         </div>
       </div>
 
@@ -240,70 +250,33 @@ function Plick() {
         <div
           className="portfolio__projects-right"
           style={{
-            backgroundColor: "var(--plick-color",
-            display: "flex",
-            flexDirection: "column",
+            backgroundImage: `url(${aura2})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         >
-          <h4 style={{ fontWeight: 400, fontSize: "3rem" }}>
-            Percieved <b>efficiency</b> of
-            <br /> the listing process
-          </h4>
-          <div
+          <img
+            src={Result}
             style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              gap: "2rem",
-              alignItems: "center",
+              maxWidth: "90vw",
             }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <h2 style={{ fontSize: "5rem", fontWeight: 900 }}>5.0</h2>
-              <span>Old design</span>
-            </div>
-            <FaArrowRight />
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            ></div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <h2 style={{ fontSize: "5rem", fontWeight: 900 }}>5.6</h2>
-              <span>Old design</span>
-            </div>
-          </div>
+            alt="prototype sketches"
+          ></img>
         </div>
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
-            <h3>Test</h3>
+            <h3>Test & Result</h3>
             <p style={{ fontSize: "1rem" }}>
-              Participants were given instructions to upload an item for sale,
-              with half of the users testing the original design and the other
-              half using the new prototype. After completing the task, they were
-              asked to answer a series of questions regarding their experience
-              and rate it on a six-point likert scale. The results indicated
-              that users found the new design significantly more efficient and
-              satisfying to use,
-              <br />
-              <br />
+              Participants were instructed to upload an item for sale, with half
+              testing the original design and the other half using the new
+              prototype in an A/B testing setup. After completing the task, they
+              answered a series of questions about their experience and rated it
+              on a six-point Likert scale. The testing demonstrated that the
+              final prototype was significantly more efficient and satisfying to
+              use, with the number of clicks required in the listing process
+              reduced from 28 clicks to 18 clicks, contributing to a smoother
+              overall experience.
             </p>
           </div>
         </div>

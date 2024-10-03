@@ -260,6 +260,7 @@
     .portfolio__projects-left{
         flex-direction: column;
         width: 100vw;
+        min-height: 50vh;
     }
 
     .portfolio__projects-left_content{
@@ -274,7 +275,7 @@
 
     .portfolio__projects-right{
         width: 100vw;
-        height: 100vh;
+        min-height: 70vh;
     }
 
     #datatjej2{
@@ -322,8 +323,10 @@
 
     .portfolio__projects-left{
         vertical-align: middle;
+        max-height: 0%;
 
     }
+    
 
 
     .portfolio__projects-left_content{

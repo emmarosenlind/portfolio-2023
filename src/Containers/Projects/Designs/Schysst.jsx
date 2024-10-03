@@ -24,7 +24,7 @@ function Schysst() {
               <Chip hasStroke text="Concept Design" />
               <Chip hasStroke text="UX Design" />
             </div>
-            <h1>Concept: Cook together</h1>
+            <h1>Schysst Käk: Cooking game</h1>
             <p id="ingress">
               Schysst Käk is one of Sweden's fastest-growing food companies,
               aiming to empower everyone to create their own thing with homemade

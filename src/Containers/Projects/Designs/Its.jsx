@@ -69,7 +69,11 @@ function Its() {
           style={{ backgroundColor: "var(--its-color)" }}
         >
           <div className="portfolio__projects-right_img">
-            <img src={acc} alt="Icons with hand, brain, eye and ear"></img>
+            <img
+              style={{ maxWidth: "90vw" }}
+              src={acc}
+              alt="Icons with hand, brain, eye and ear"
+            ></img>
           </div>
         </div>
       </div>
