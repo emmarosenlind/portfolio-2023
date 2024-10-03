@@ -10,7 +10,7 @@ import BackArrow from "./Components/BackArrow/BackArrow";
 function App() {
   const c1 = "#FFF1CF";
   const c2 = "#ffffff";
-  const c3 = "#DEFCFF";
+  const c3 = "#FFF1CF";
   const [color, setColor] = useState(c1);
   const [xy, setXY] = useState([0, 0]);
 
