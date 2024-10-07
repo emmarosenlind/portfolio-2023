@@ -6,7 +6,7 @@ const Header = () => {
     <header className="portfolio__header section-padding" id="home">
       <div className="portfolio__header-content">
         <h1 className="gradient__text">
-          Hi, I am Emma, designer from Sweden who loves...
+          Hi, I am Emma, a designer from Sweden who loves...
         </h1>
         <p>
           Making boring things exciting, skiing down mountains, developing new
