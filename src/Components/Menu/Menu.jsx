@@ -55,12 +55,10 @@ function Menu() {
     }, 300);
   };
 
-  console.log("SELECTED", selected);
-
   return (
-    <div className="portfolio__menu" id="menu" role="menu">
+    <div className="portfolio__menu" id="menu">
       <h1> My work</h1>
-      <div className="portfolio__menu-container">
+      <nav className="portfolio__menu-container">
         <div
           className="portfolio__MenuItem"
           style={selected === "ux" ? styling.selected : styling.button}
@@ -84,7 +82,7 @@ function Menu() {
         >
           <p id="menu_p">Fun stuff</p>
         </div>
-      </div>
+      </nav>
       {selected === "ux" ? <Uxui /> : ""}
       {selected === "ui" ? <Code transition={transition} /> : ""}
       {selected === "fun" ? <Fun /> : ""}

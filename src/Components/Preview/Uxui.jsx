@@ -14,7 +14,7 @@ const Uxui = () => {
   const nav = useNavigate();
 
   return (
-    <div className="portfolio__preview">
+    <div className="portfolio__preview" role="navigation">
       <div className="portfolio__preview-card">
         <div onClick={() => nav("/Plick")}>
           <div className="portfolio__preview-card_image">
