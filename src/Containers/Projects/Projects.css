@@ -13,7 +13,7 @@
 
 .portfolio__projects h3{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0.5rem;
 }
 
@@ -60,7 +60,7 @@
 
 .portfolio__projects-left_content h2{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .portfolio__projects-left_content p {
@@ -340,8 +340,8 @@
     }
     
     .portfolio__projects-left_content h2{
-        font-weight: 500;
-        font-size: 14px;
+        font-weight: 600;
+        font-size: 1rem;
        
     }
 

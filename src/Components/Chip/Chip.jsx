@@ -9,6 +9,7 @@ const Chip = ({
   icon = undefined,
   hasStroke = false,
   isRounded = false,
+  alt = "",
 }) => {
   return (
     <div
@@ -18,7 +19,7 @@ const Chip = ({
       ${isRounded ? "chip-rounded" : ""}`}
       style={{ backgroundColor: color, color: textColor }}
     >
-      {icon && <img src={icon} alt="icon" />}
+      {icon && <img alt={alt} src={icon} />}
       {text}
     </div>
   );

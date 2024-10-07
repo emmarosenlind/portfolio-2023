@@ -20,7 +20,7 @@
 .portfolio__header-content h1{
     font-family: var(--font-family);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 62px;
     line-height: 120%;
 }

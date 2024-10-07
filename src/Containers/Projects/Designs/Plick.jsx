@@ -1,5 +1,4 @@
 import React from "react";
-
 import Plickbild from "../../../Assets/plickbild.png";
 import aura2 from "../../../Assets/auraresult.svg";
 import Diagram from "../../../Assets/diagram.svg";
@@ -14,7 +13,7 @@ import BackArrow from "../../../Components/BackArrow/BackArrow";
 
 function Plick() {
   return (
-    <div className="portfolio__schysst">
+    <div className="portfolio__schysst" role="main">
       <BackArrow />
       <div className="portfolio__projects">
         <div className="portfolio__projects-left">
@@ -36,9 +35,9 @@ function Plick() {
               clothes.
             </p>
             <div className="portfolio__projects-left_content-description">
-              <h2>DURATION</h2>
+              <h2 style={{ fontSize: "14px" }}>DURATION</h2>
               <p>Six months</p>
-              <h2>TOOLS</h2>
+              <h2 style={{ fontSize: "14px" }}>TOOLS</h2>
               <div className="chip_container">
                 <Chip
                   icon={Figma}
@@ -46,6 +45,7 @@ function Plick() {
                   textColor="#fff"
                   isSmall
                   text="Figma"
+                  alt="Figma logotype"
                 />
                 <Chip
                   color="#000"
@@ -155,7 +155,7 @@ function Plick() {
               It's an iterative process where we repeat until we get the
               expected result.
             </p>
-            <h3>Empathize</h3>
+            <h2>Empathize</h2>
             <p style={{ fontSize: "16px" }}>
               In the empathize phase, I conducted a user survey within the app,
               followed by in-depth interviews with selected users. I also
@@ -188,7 +188,7 @@ function Plick() {
           <img
             src={Skiss}
             style={{ maxWidth: "95%", mixBlendMode: "multiply" }}
-            alt="table of number of clicks"
+            alt="sketches of interface"
           ></img>
         </div>
         <div className="portfolio__projects-left">
@@ -240,7 +240,7 @@ function Plick() {
           <img
             src={Diagram}
             style={{ maxWidth: "85%" }}
-            alt="prototype sketches"
+            alt="bar chart of results of user testing"
           ></img>
         </div>
       </div>
@@ -261,7 +261,7 @@ function Plick() {
             style={{
               maxWidth: "90vw",
             }}
-            alt="prototype sketches"
+            alt="Illustration of how the percieved efficiency increased from 5.0 to 5.6 on six point scale."
           ></img>
         </div>
         <div className="portfolio__projects-left">

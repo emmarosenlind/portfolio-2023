@@ -23,7 +23,7 @@ function SustainAx() {
   return (
     <div className="portfolio__schysst">
       <BackArrow />
-      <div className="portfolio__projects">
+      <header className="portfolio__projects">
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
@@ -55,6 +55,7 @@ function SustainAx() {
                   textColor="#fff"
                   isSmall
                   text="Material UI"
+                  alt="Google Logotype"
                 />
                 <Chip
                   icon={Trello}
@@ -62,6 +63,7 @@ function SustainAx() {
                   textColor="#fff"
                   isSmall
                   text="Trello"
+                  alt="Trello Logotype"
                 />
                 <Chip
                   icon={Figma}
@@ -69,6 +71,7 @@ function SustainAx() {
                   textColor="#fff"
                   isSmall
                   text="Figma"
+                  alt="Figma Logotype"
                 />
                 <Chip color="#000" textColor="#fff" isSmall text="Flowchart" />
                 <Chip color="#000" textColor="#fff" isSmall text="FigJam" />
@@ -88,7 +91,7 @@ function SustainAx() {
         >
           <div className="portfolio__projects-right_img"></div>
         </div>
-      </div>
+      </header>
 
       {/** Right grid */}
       <div className="portfolio__projects" id="reverse">
@@ -101,7 +104,7 @@ function SustainAx() {
             <img
               style={{ maxWidth: "80vw" }}
               src={SustainAxChallenge}
-              alt="schysst käk"
+              alt="Illustration of circle and ESGZonex Logotype"
             ></img>
           </div>
         </div>
@@ -158,6 +161,7 @@ function SustainAx() {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            alt: "Illustration of users including system owner, team owner and analyst",
           }}
         ></div>
       </div>
