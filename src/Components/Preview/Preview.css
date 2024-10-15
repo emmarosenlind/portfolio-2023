@@ -50,7 +50,7 @@
 }
 
 .portfolio__preview-card:hover{
-    text-decoration: underline;
+   h1{ text-decoration: underline;}
 }
 
 

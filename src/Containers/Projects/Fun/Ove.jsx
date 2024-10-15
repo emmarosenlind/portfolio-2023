@@ -13,9 +13,9 @@ function Ove() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
+              <Chip hasStroke text="UI Design" />
               <Chip hasStroke text="Product Design" />
               <Chip hasStroke text="Business Development" />
-              <Chip hasStroke text="UI Design" />
             </div>
             <h1>App for smarter shopping</h1>
             <p id="ingress">

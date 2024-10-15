@@ -21,8 +21,8 @@ function Schysst() {
           <div className="portfolio__projects-left_content">
             <BackArrow />
             <div className="chip_container">
+              <Chip hasStroke text="UI Design" />
               <Chip hasStroke text="Concept Design" />
-              <Chip hasStroke text="UX Design" />
             </div>
             <h1>Schysst Käk: Cooking game</h1>
             <p id="ingress">

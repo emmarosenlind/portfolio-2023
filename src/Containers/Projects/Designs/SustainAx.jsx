@@ -29,6 +29,7 @@ function SustainAx() {
             <div className="chip_container">
               <Chip hasStroke text="UX Design" />
               <Chip hasStroke text="UX Lead" />
+              <Chip hasStroke text="Product Design" />
             </div>
 
             <h1>

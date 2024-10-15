@@ -8,7 +8,7 @@
 }
 
 .project{
-    margin-top: 100px;
+    margin-top: 1rem;
     
 }
 
@@ -19,7 +19,8 @@ h1{
 
 .project_info{
     display: flex;
-    margin-top: 50px;
+    margin-top: 3rem;
+    max-width: 50rem;
     justify-content: space-between;
 }
 
@@ -42,7 +43,7 @@ h3{
         display: flexbox;
         justify-content: center;
         font-family: var(--font-family);
-        padding: 10rem 1rem 1rem 1rem;
+        padding: 10rem 10rem 1rem 10rem;
         flex-direction: row; 
         cursor: pointer; /* Visa pekaren när man hovrar över bilden */
         align-items: center;

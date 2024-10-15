@@ -41,7 +41,7 @@ const Uxui = () => {
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
               <Chip isSmall hasStroke textColor="#000" text="UX Design" />
-              <Chip isSmall hasStroke textColor="#000" text="Design Lead" />
+              <Chip isSmall hasStroke textColor="#000" text="UX Lead" />
               <Chip isSmall hasStroke textColor="#000" text="Product Design" />
             </div>
 

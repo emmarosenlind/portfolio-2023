@@ -15,8 +15,8 @@ function PathPilot() {
         <div className="portfolio__projects-left">
           <div className="portfolio__projects-left_content">
             <div className="chip_container">
-              <Chip hasStroke text="Concept Design" />
               <Chip hasStroke text="UI Design" />
+              <Chip hasStroke text="Concept Design" />
             </div>
             <h1>Mentorship platform for inclusion in Australia</h1>
             <p id="ingress">

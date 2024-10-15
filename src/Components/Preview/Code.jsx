@@ -21,8 +21,8 @@ const Code = ({ transition }) => {
 
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
-              <Chip isSmall hasStroke textColor="#000" text="Concept Design" />
               <Chip isSmall hasStroke textColor="#000" text="UI Design" />
+              <Chip isSmall hasStroke textColor="#000" text="Concept Design" />
             </div>
             <h1>Schysst Käk: Make recipes great again</h1>
           </div>
@@ -51,6 +51,7 @@ const Code = ({ transition }) => {
           </div>
           <div className="portfolio__preview-card_text">
             <div className="chip_container">
+              <Chip isSmall hasStroke textColor="#000" text="UI Design" />
               <Chip isSmall hasStroke textColor="#000" text="Product Design" />
               <Chip
                 isSmall
@@ -58,7 +59,6 @@ const Code = ({ transition }) => {
                 textColor="#000"
                 text="Business Development"
               />
-              <Chip isSmall hasStroke textColor="#000" text="UI Design" />
             </div>
             <h1>App for smarter shopping</h1>
           </div>
