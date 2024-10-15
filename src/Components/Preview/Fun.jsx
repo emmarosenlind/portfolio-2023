@@ -13,7 +13,7 @@ const Fun = () => {
   return (
     <div className="portfolio__preview">
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/datatjej")}>
+        <a href="/datatjej">
           <div className="portfolio__preview-card_image">
             <img src={DataTjej} alt="Cover of DataTjej"></img>
           </div>
@@ -25,11 +25,14 @@ const Fun = () => {
             </div>
             <h1>DataTjej: Redesign and Maintenance</h1>
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="portfolio__preview-card">
-        <div onClick={() => window.open(publicationpdf, "_blank")}>
+        <div
+          target="_blank"
+          onClick={() => window.open(publicationpdf, "_blank")}
+        >
           <div className="portfolio__preview-card_image">
             <img src={publication} alt="img"></img>
           </div>

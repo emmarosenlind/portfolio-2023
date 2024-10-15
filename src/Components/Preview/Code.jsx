@@ -14,7 +14,7 @@ const Code = ({ transition }) => {
   return (
     <div className={`portfolio__preview ${transition ? "transition" : ""}`}>
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/schysst")}>
+        <a href="/schysst">
           <div className="portfolio__preview-card_image">
             <img src={schysst} alt="img"></img>
           </div>
@@ -26,11 +26,11 @@ const Code = ({ transition }) => {
             </div>
             <h1>Schysst Käk: Make recipes great again</h1>
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/pathpilot")}>
+        <a href="/pathpilot">
           <div className="portfolio__preview-card_image">
             <img src={PathPilot} alt="Cover of PathPilot"></img>
           </div>
@@ -41,11 +41,11 @@ const Code = ({ transition }) => {
             </div>
             <h1>Mentorship platform for inclusion in Australia</h1>
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/ove")}>
+        <a href="/ove">
           <div className="portfolio__preview-card_image">
             <img src={ove} alt="img"></img>
           </div>
@@ -62,7 +62,7 @@ const Code = ({ transition }) => {
             </div>
             <h1>App for smarter shopping</h1>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

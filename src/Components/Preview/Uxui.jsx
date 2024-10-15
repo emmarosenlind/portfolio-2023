@@ -16,7 +16,7 @@ const Uxui = () => {
   return (
     <div className="portfolio__preview" role="navigation">
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/Plick")}>
+        <a href="/Plick">
           <div className="portfolio__preview-card_image">
             <img src={plickpreview} alt="img"></img>
           </div>
@@ -30,11 +30,11 @@ const Uxui = () => {
               Plick
             </h1>
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/sustainax")}>
+        <a href="/sustainax">
           <div className="portfolio__preview-card_image">
             <img src={SustainAxpreview} alt="img"></img>
           </div>
@@ -50,11 +50,11 @@ const Uxui = () => {
               Tool
             </h1>
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="portfolio__preview-card">
-        <div onClick={() => nav("/its")}>
+        <a href="/its">
           <div className="portfolio__preview-card_image">
             <img src={its} alt="img"></img>
           </div>
@@ -67,7 +67,7 @@ const Uxui = () => {
               Improve accessibility of public sector administration system
             </h1>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

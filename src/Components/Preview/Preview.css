@@ -105,3 +105,13 @@
         font-size: 30px;
     }
 }
+
+
+.portfolio__preview-card a:hover {
+    text-decoration: none; /* Förhindrar understrykning vid hover */
+    color: inherit;        /* Bevarar textfärgen */
+    background-color: inherit; /* Bevarar bakgrundsfärgen */
+    border: none;          /* Tar bort eventuella ramar */
+    /* Lägg till andra egenskaper du vill ta bort */
+    all: unset;
+  }

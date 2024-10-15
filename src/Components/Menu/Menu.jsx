@@ -59,29 +59,47 @@ function Menu() {
     <div className="portfolio__menu" id="menu">
       <h1> My work</h1>
       <nav className="portfolio__menu-container">
-        <div
+        <a
+          href="#"
+          role="button"
+          tabIndex="0"
           className="portfolio__MenuItem"
           style={selected === "ux" ? styling.selected : styling.button}
-          onClick={() => selectItem("ux")}
+          onClick={(e) => {
+            e.preventDefault(); // Förhindra standardbeteendet
+            selectItem("ux");
+          }}
         >
           <p id="menu_p">UX Design</p>
-        </div>
+        </a>
 
-        <div
+        <a
+          href="#"
+          role="button"
+          tabIndex="0"
           className="portfolio__MenuItem"
           style={selected === "ui" ? styling.selected : styling.button}
-          onClick={() => selectItem("ui")}
+          onClick={(e) => {
+            e.preventDefault(); // Förhindra standardbeteendet
+            selectItem("ui");
+          }}
         >
           <p id="menu_p">UI Design</p>
-        </div>
+        </a>
 
-        <div
+        <a
+          href="#"
+          role="button"
+          tabIndex="0"
           className="portfolio__MenuItem"
           style={selected === "fun" ? styling.selected : styling.button}
-          onClick={() => selectItem("fun")}
+          onClick={(e) => {
+            e.preventDefault(); // Förhindra standardbeteendet
+            selectItem("fun");
+          }}
         >
-          <p id="menu_p">Fun stuff</p>
-        </div>
+          <p id="menu_p">Fun Stuff</p>
+        </a>
       </nav>
       {selected === "ux" ? <Uxui /> : ""}
       {selected === "ui" ? <Code transition={transition} /> : ""}

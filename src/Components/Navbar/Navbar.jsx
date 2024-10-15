@@ -51,7 +51,7 @@ const Navbar = () => {
                 transition: "transform 0.1s ease",
               }}
               src={logo}
-              alt="logo"
+              alt="Logotype smiley"
             />
           </a>
         </div>
@@ -62,6 +62,7 @@ const Navbar = () => {
       <div className="portfolio__navbar-sign">
         <button
           type="button"
+          target="_blank"
           onClick={() =>
             window.open("https://www.linkedin.com/in/emmarosenlind/", "_blank")
           }

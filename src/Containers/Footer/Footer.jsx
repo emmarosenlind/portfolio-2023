@@ -10,9 +10,21 @@ const Footer = () => {
         <h1>Contact me</h1>
         <p>
           Let's make something fun together! Email me at{" "}
-          <a href="mailto:emma.rosenlind@gmail.com">emma.rosenlind@gmail.com</a>{" "}
+          <a
+            style={{ textDecoration: "underline" }}
+            target="_blank"
+            href="mailto:emma.rosenlind@gmail.com"
+          >
+            emma.rosenlind@gmail.com
+          </a>{" "}
           or connect at{" "}
-          <a href="https://www.linkedin.com/in/emmarosenlind/">Linkedin</a>{" "}
+          <a
+            style={{ textDecoration: "underline" }}
+            target="_blank"
+            href="https://www.linkedin.com/in/emmarosenlind/"
+          >
+            Linkedin
+          </a>{" "}
         </p>
       </div>
     </footer>

@@ -320,15 +320,10 @@
 
 @media  screen and (max-width: 650px) {
 
-
     .portfolio__projects-left{
         vertical-align: middle;
-        max-height: 0%;
-
     }
     
-
-
     .portfolio__projects-left_content{
         flex-direction: column;
         padding:0;
