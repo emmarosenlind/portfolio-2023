@@ -78,10 +78,8 @@ a:hover{
 } 
 
 button:hover{
-    background: pink;
-    transition: 0.4s;
-    color:black;
-   
+    border: 1px solid #000;
+
 }
 
 .portfolio__navbar-menu{

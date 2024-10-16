@@ -63,9 +63,24 @@ function App() {
     });
   }, []);
 
+  window.addEventListener("load", function () {
+    // Vänta 2 sekunder innan fade-out startar
+    setTimeout(function () {
+      // Sätter opaciteten på preloader till 0 för att börja fade-out
+      document.getElementById("preloader").style.opacity = "0";
+
+      // Vänta ytterligare 2 sekunder för fade-out att slutföras
+      setTimeout(function () {
+        document.getElementById("preloader").style.display = "none"; // Döljer preloadern helt
+        document.querySelector(".content").style.display = "block"; // Visar innehållet
+      }, 2000); // Väntar 2 sekunder (fade-out tiden)
+    }, 2000); // Väntar 2 sekunder innan fade-out börjar
+  });
+
   return (
     <div className="App" style={{ background: color }}>
       <div id="spotlight" style={{ left: xy[0], top: xy[1] }}></div>
+      <div id="preloader"></div>
       <Navbar />
       <Header />
       <Menu />

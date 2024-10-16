@@ -1,5 +1,5 @@
 // ColorContext.js
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from "react";
 
 export const StyleContext = createContext();
 
@@ -28,9 +28,17 @@ export const StyleProvider = ({ children }) => {
   };
 
   return (
-    <StyleContext.Provider value={{ aboutStyle, changeAboutStyle, faqStyle, changeFaqStyle }}>
+    <StyleContext.Provider
+      value={{ aboutStyle, changeAboutStyle, faqStyle, changeFaqStyle }}
+    >
       {children}
     </StyleContext.Provider>
   );
 };
 
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    document.getElementById("preloader").style.display = "none"; // Döljer preloader
+    document.querySelector(".content").style.display = "block"; // Visar innehållet
+  }, 3000); // 3 sekunder
+});

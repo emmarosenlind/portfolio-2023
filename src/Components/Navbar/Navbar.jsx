@@ -67,7 +67,7 @@ const Navbar = () => {
             window.open("https://www.linkedin.com/in/emmarosenlind/", "_blank")
           }
         >
-          Contact
+          LinkedIn
         </button>
       </div>
 

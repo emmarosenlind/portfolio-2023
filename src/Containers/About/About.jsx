@@ -114,7 +114,7 @@ function About() {
             href="https://www.linkedin.com/in/emmarosenlind/"
             type="button"
           >
-            Contact
+            LinkedIn
           </button>
         </div>
 
@@ -149,13 +149,15 @@ function About() {
             I am a user-centered designer passionate about creating intuitive
             and effective digital solutions. Currently, I am working as a
             consultant at Netlight. My skills include user research,
-            wireframing, prototyping, user testing, project management, and
-            programming. I also have a keen interest in graphic design.
+            wireframing, prototyping, user testing, project management, and some
+            frontend programming. I also have a keen interest in graphic design.
             <br />
             <br />
           </p>
           <h2>
-            <a href="mailto:emma.rosenlind@gmail.com">Let's talk</a>
+            <a href="https://www.linkedin.com/in/emmarosenlind/" target="blank">
+              Let's connect
+            </a>
           </h2>
         </div>
         <img src={images[currentImageIndex]} alt="me" />

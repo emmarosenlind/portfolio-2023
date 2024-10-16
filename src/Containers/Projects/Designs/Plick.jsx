@@ -4,7 +4,7 @@ import aura2 from "../../../Assets/auraresult.svg";
 import Diagram from "../../../Assets/diagram.svg";
 import Result from "../../../Assets/resultplick.svg";
 import aura from "../../../Assets/aura.svg";
-import Process from "../../../Assets/Plick/designprocess.svg";
+import Process from "../../../Assets/designprocess.svg";
 import Skiss from "../../../Assets/Plick/skiss.svg";
 import Figma from "../../../Assets/figmalogo.svg";
 import PlickLogo from "../../../Assets/plicklogo.svg";
@@ -172,6 +172,11 @@ function Plick() {
           style={{ backgroundColor: "#000" }}
         >
           <img
+            style={{
+              paddingTop: "1rem",
+              paddingBottom: "1rem",
+              width: "30rem",
+            }}
             src={Process}
             alt="Illustration of design thinking process"
           ></img>

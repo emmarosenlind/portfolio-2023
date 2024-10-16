@@ -13,9 +13,9 @@ const Footer = () => {
           <a
             style={{ textDecoration: "underline" }}
             target="_blank"
-            href="mailto:emma.rosenlind@gmail.com"
+            href="mailto:emma.rosenlind@netlight.com"
           >
-            emma.rosenlind@gmail.com
+            emma.rosenlind@netlight.com
           </a>{" "}
           or connect at{" "}
           <a

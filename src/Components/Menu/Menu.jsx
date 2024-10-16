@@ -57,7 +57,7 @@ function Menu() {
 
   return (
     <div className="portfolio__menu" id="menu">
-      <h1> My work</h1>
+      <h1> My latest work</h1>
       <nav className="portfolio__menu-container">
         <a
           href="#"
