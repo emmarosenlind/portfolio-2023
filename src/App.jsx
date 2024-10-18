@@ -80,7 +80,7 @@ function App() {
   return (
     <div className="App" style={{ background: color }}>
       <div id="spotlight" style={{ left: xy[0], top: xy[1] }}></div>
-      <div id="preloader"></div>
+      {/*<div id="preloader"></div>*/}
       <Navbar />
       <Header />
       <Menu />
