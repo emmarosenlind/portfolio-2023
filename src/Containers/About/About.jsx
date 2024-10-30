@@ -7,6 +7,7 @@ import pic4 from "../../Assets/pic2.png";
 import pic5 from "../../Assets/pic5.png";
 import pic6 from "../../Assets/pic8.png";
 import pic7 from "../../Assets/pic12.png";
+import pic13 from "../../Assets/pic13.png";
 import krull from "../../Assets/krull.svg";
 import smallsmiley from "../../Assets/logo.png";
 import FAQData from "../FAQ/FAQData";
@@ -23,7 +24,7 @@ function About() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [currentStyleIndex, setCurrentStyleIndex] = useState(0);
   const [clicked, setClicked] = useState(false);
-  const images = [pic2, pic1, pic3, pic4, pic5, pic6, pic7];
+  const images = [pic13, pic13, pic3, pic4, pic5, pic6, pic7];
   const styles = [
     "style1",
     "style2",
@@ -173,14 +174,15 @@ function About() {
             >
               <div className="faq-question">
                 {faq.question}
-                {/* Villkorlig rendering av ikonen beroende på om frågan är öppen eller inte */}
                 {faq.open ? (
                   <FaTimes className="faq-plus-icon" />
                 ) : (
                   <FaPlus className="faq-plus-icon" />
                 )}
               </div>
-              <div className="faq-answer">{faq.answer}</div>
+              <div className="faq-answer">
+                {<span dangerouslySetInnerHTML={{ __html: faq.answer }} />}
+              </div>
             </div>
             <hr className="faq-divider" />
           </div>

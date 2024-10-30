@@ -73,30 +73,34 @@
 
 @media  screen and (max-width: 1200px) {
     .portfolio__about{
-        flex-direction: column;
-        padding: 15rem 20rem 5rem 5rem;
+        gap: 5rem;
+        padding: 15rem 5rem 5rem 5rem;
+    }
+    .portfolio__about-content p{
+        font-size: 1rem;
     }
     .portfolio{
         min-height: 160vh;
     }
     .portfolio__about img {
         object-fit: contain; /* or cover */
-        width: 60vh;
+        width: 50vh;
         height: auto;  
     }
 }
 
 @media  screen and (max-width: 950px) {
     .portfolio__about-content{
-        flex-direction: column;
+    
         margin: 10rem 5rem 5rem 5rem;
     }
     .portfolio__about{
+        flex-direction: column;
         padding: 0;
         gap: 1rem;
     }
     .portfolio__about img {
-        margin-left: 5rem;
+        margin: 0;
         width: 80%;
     }
 }
@@ -113,7 +117,7 @@
 
     .portfolio__about img {
         width: 90%;
-        margin-left: 1rem;
+
     }
     .portfolio__about h2 {
         padding-top: 3rem;

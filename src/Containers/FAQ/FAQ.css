@@ -18,6 +18,7 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 1.3rem;
   }
 
   .faq {
@@ -40,6 +41,7 @@
     align-items: center;
     justify-content: space-between;
     font-weight: 400;
+    font-size: 1rem;
     transition: all 0.4s ease;
   }
 
@@ -52,13 +54,25 @@
     font-weight: 300;
     transition: all 0.2s ease;
     font-weight: 400;
+    margin-right: 50px;
   }
   
   .faq.open .faq-answer {
-    max-height: 500px; /* Anpassa höjden efter behov */
+    max-height: 700px; /* Anpassa höjden efter behov */
     padding-top: 10px;
     padding-bottom: 10px;
     opacity: 1; /* Visa svaret när frågan är öppen */
+  }
+
+  .faq.open .faq-question{
+    font-weight: 800;
+  }
+  .faq-plus-icon {
+    font-size: 16px; /* Justera storleken på ikonen */
+    width: 16px;
+    height: 16px;
+    margin-left: 10px; /* Justera avståndet mellan text och ikon */
+    flex-shrink: 0; /* Förhindrar att ikonen krymper när utrymmet blir tight */
   }
   
   .faq-divider {
@@ -69,7 +83,22 @@
   
   @media screen and (min-width: 2001px) {
     .faq-question{
-      font-size: 20px;
+      font-size: 1rem;
     }
   }
+
+  @media screen and (max-width: 900px) {
+    .faq-question{
+      font-size: 1rem;
+    }
+
+    .faq-answer{
+      font-size: 0.85rem;
+    }
+    
+    .faq-answer{
+      margin-right: 0;
+    }
+  }
+  
   

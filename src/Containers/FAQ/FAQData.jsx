@@ -3,18 +3,9 @@ const FAQData = [
   {
     question: "Who are you?",
     answer:
-      "I'm a design consultat who's all about design and creativity. I love diving into different ways to express myself and push the boundaries of what's possible in the design world. My latest obsession is sewing and it has become more of production than hobby.",
+      "I'm Emma, a design consultant driven by curiosity, always eager to explore new ways to turn ideas into tangible results. I thrive on discovering innovative solutions and pushing the boundaries of what's possible in the design world. My latest passion is sewing, which has grown from a simple hobby into a small-scale production. <br/> <br/> At Netlight, I channel that same curiosity and diverse skill set into our team, constantly venturing into uncharted territories to deliver innovative, independent solutions. I value connecting with others to share knowledge, grow together, and design solutions that are not only functional but also impactful, meaningful, and sustainable",
   },
-  {
-    question: "Where are you from?",
-    answer:
-      "I'm originally from Sundsvall, born and raised there. I moved to Umeå for my studies. I spent the fall of 2023 in Korea, and now I call Stockholm home.",
-  },
-  {
-    question: "What do you do?",
-    answer:
-      "Besides working with design, I love being out in nature and skiing. I love DEEP snow. Additionally, I enjoy music and being creative through various crafts and mediums",
-  },
+
   {
     question: "What is your educational background?",
     answer:
@@ -26,9 +17,19 @@ const FAQData = [
     answer: "Yes, that is true.",
   },
   {
-    question: "Do you prefer working in a team or independently?",
+    question: "What are your strengths?",
     answer:
-      "I prefer working in a team because I enjoy conversing, and when I work alone, I end up talking to myself :)",
+      "My strengths include a strong curiosity that drives me to explore various design solutions. I am comfortable working through the entire scope of the design process, from research to implementation. I excel at aligning with all stakeholders to ensure that everyone’s perspectives are considered. Additionally, I have a solid understanding of accessibility and design systems, which enables me to create inclusive and coherent designs.",
+  },
+  {
+    question: "How do you prefer to work within a team?",
+    answer:
+      "I enjoy working closely with developers, product owners, stakeholders, and other designers to fully understand the perspectives required to bring a design to life. My background in IT and programming helps me bridge the gap between design and development, making collaboration smoother and more efficient",
+  },
+  {
+    question: "What is your favourite song",
+    answer:
+      '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0WviwuG403gqtW6bZevBpP?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>',
   },
 ];
 
