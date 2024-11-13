@@ -84,7 +84,6 @@ function App() {
       <Navbar />
       <Header />
       <Menu />
-      <Volunteer />
       <Footer />
     </div>
   );
